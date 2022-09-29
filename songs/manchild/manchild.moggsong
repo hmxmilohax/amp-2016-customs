@@ -1,0 +1,58 @@
+(mogg_path manchild.mogg)
+(midi_path manchild.mid)
+(song_info
+   (length 125:0:0)  ; SHOULD BE 4 LESS THAN ACTUAL
+   (countin 4)
+)
+
+(tracks
+   (
+      (drums1 (0 1) event:/SONG_BUS)
+      (drums2 (2 3) event:/SONG_BUS)
+      (bass (4 5) event:/SONG_BUS)
+	  (vox (6 7) event:/SONG_BUS)
+      (synth (8 9) event:/SONG_BUS)
+      (fx (10 11) event:/SONG_BUS)
+      (freestyle (12 13) event:/FREESTYLE_FX_1) 
+      (bg_click (14 15) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;       1DMS1      2DMS2      3BASS       4VOX      5SYN     6SYN2     7FREE      8BG
+(pans ( 0.0  0.0  0.0  0.0   0.0  0.0   0.0  0.0  0.0  0.0  0.0  0.0  0.0 0.0  0.0  0.0))
+(vols ( 0.0  0.0  0.0  0.0   0.0  0.0   4.0  4.0  0.0  0.0  0.0  0.0  0.0 0.0  0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
+
+; Amplitude settings
+
+(arena_path ConstructoP2)
+(score_goal
+  (  336   466  1605)
+  (  479   717  1605)
+  (  897  1253  1605)
+  ( 1045  1547  1605)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section
+(section_start_bars 26 62 95)
+
+;;
+;; META DATA
+;;
+(title "Nitro Narcosis" )
+(title_short "Nitro Narcosis" )
+(artist "Manchild")
+(artist_short "Manchild")
+(desc "Manchild's critically acclaimed debut album 'Untied States' is an exciting mixture of dance, rock, & hip-hop.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 135.001)
+
+(preview_start_ms 48582)
+(preview_length_ms 30455)

@@ -1,0 +1,52 @@
+(mogg_path longtimefriends.mogg)
+(midi_path longtimefriends.mid)
+(song_info
+	(length 152:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (guitar (4 5) event:/SONG_BUS)
+      (vox (6 7) event:/SONG_BUS)
+      (synth (8 9) event:/SONG_BUS)
+      (drums2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-4.0  -4.0    -8.0  -8.0    -6.0  -6.0    -4.0  -4.0    -8.5  -8.5    -6.0  -6.0    -2.5     -3.0  -3.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  972 1211 1962)
+  ( 1044 1449 1962)
+  ( 1139 1635 1962)
+  ( 1286 1748 1962)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 33 81 129)
+;; META DATA
+(title "Long Time Friends")
+(artist "The Living Tombstone")
+(artist_short "The Living Tombstone")
+(desc "RBN veteran, The Living Tombstone, shows us their songs have what it takes to play in Amplitude!")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 180)
+
+(preview_start_ms 47166)
+(preview_length_ms 22167)

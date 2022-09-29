@@ -1,0 +1,53 @@
+(mogg_path renee.mogg)
+(midi_path renee.mid)
+(song_info
+	(length 68:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums1 (0 1) event:/SONG_BUS)
+      (rhythm (2 3) event:/SONG_BUS)
+      (guitar (4 5) event:/SONG_BUS)
+      (drums2 (6 7) event:/SONG_BUS)
+      (drums3 (8 9) event:/SONG_BUS)
+      (vocals (10 11) event:/SONG_BUS)
+      (freestyle (12 13) event:/FREESTYLE_FX_1)
+      (bg_click (14 15) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0))
+(vols (4.0 4.0    4.0 4.0    4.0 4.0    4.0 4.0    4.0 4.0    4.0 4.0    0.0  0.0    0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  346  430  697)
+  (  371  515  697)
+  (  405  581  697)
+  (  457  621  697)
+)
+
+(tunnel_scale 0.8)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 17 37 53)
+;; META DATA
+(title "Renee")
+(title_short "Renee")
+(artist "Sales")
+(artist_short "Sales")
+(desc "Hey. You Got It.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 109)
+
+(preview_start_ms 52843)
+(preview_length_ms 30000)

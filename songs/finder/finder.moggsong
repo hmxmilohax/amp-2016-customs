@@ -1,0 +1,59 @@
+(mogg_path finder.mogg)
+(midi_path finder.mid)
+(song_info
+	(length 92:0:0) ;SHOULD BE 5 LESS THAN ACTUAL
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (gtr (4 5) event:/SONG_BUS)
+      (synth1 (6 7) event:/SONG_BUS)
+      (vox (8 9) event:/SONG_BUS)
+      (synth2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;       1DMS1     2BASS     3GTR     4SYN1     5VOX      6SYN2      7FREE    8BG
+(pans (-1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0   0.0   -1.0  1.0))
+(vols (-6.0 -6.0 -4.0 -4.0 -6.4 -6.4 -6.0 -6.0 -6.0 -6.0 -5.0 -5.0  -5.0   -5.0 -5.0))
+ 
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  394   554  2941)
+  (  720  1026  2941)
+  ( 1238  1708  2941)
+  ( 1619  2315  2941)
+)
+
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel
+
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section
+(section_start_bars 25 49 77)
+
+;; 
+;; META DATA
+;;
+(title "Finder" )
+(artist "UZA")
+(artist_short "UZA")
+(desc "2021's \qPrototype\q EP by UZA takes influences from synthwave and 1970s funk to give you a unique blend of genres to satisfy your ears and warm up your fingers.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 105)
+
+(preview_start_ms 54857)
+(preview_length_ms 27428) 

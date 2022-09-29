@@ -1,0 +1,60 @@
+(mogg_path poddemo.mogg)
+(midi_path poddemo.mid)
+(song_info
+	(length 78:0:0) ;SHOULD BE 5 LESS THAN ACTUAL
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (vox (4 5) event:/SONG_BUS)
+      (guitar (6 7) event:/SONG_BUS)
+      (synth (8 9) event:/SONG_BUS)
+      (drums2 (10 11) event:/SONG_BUS)
+      (freestyle (12 13) event:/FREESTYLE_FX_1)
+      (bg_click (14 15) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;        1DMS1      2BASS      3VOX       4GUI      5FX      6DMS2     7FREE      8BG
+(pans ( 0.0  0.0  0.0  0.0   0.0  0.0   0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0))
+(vols ( 4.0  4.0  1.0  1.0   1.0  1.0   1.0  1.0  1.0  1.0  1.0  1.0  0.0  0.0  0.0  0.0))
+ 
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  394   554  2941)
+  (  720  1026  2941)
+  ( 1238  1708  2941)
+  ( 1619  2315  2941)
+)
+
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel
+
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section
+(section_start_bars 31 53 62)
+
+;; 
+;; META DATA
+;;
+(title "Space" )
+(title_short "Space" )
+(artist "P.O.D.")
+(artist_short "P.O.D.")
+(desc "Featured on a special version of Amplitude showcases exlusive performances from members of P.O.D.")
+(unlock_requirement unlock_requirement_bonus)
+(bpm 101)
+
+(preview_start_ms 118812)
+(preview_length_ms 34238) 
