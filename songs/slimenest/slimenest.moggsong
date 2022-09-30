@@ -47,6 +47,8 @@
 (desc "What has Maxwell gotten himself into?                                      Find out more in Goodboy Galaxy at goodboygalaxy.com")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 160)
+(demo_video "https://www.youtube.com/watch?v=q2Urn0NX6rY")
+(charter "DanTheMan827")
 
 (preview_start_ms 7500)
 (preview_length_ms 12000)

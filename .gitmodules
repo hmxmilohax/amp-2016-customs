@@ -1,0 +1,3 @@
+[submodule "tools/song-packager/DtxCS"]
+	path = tools/song-packager/DtxCS
+	url = https://github.com/maxton/DtxCS.git
