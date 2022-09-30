@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "song-packager", "song-packager\song-packager.csproj", "{6E9FC3FE-83BE-4368-A984-2AEA6E6B69ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtxCs6.0", "DtxCs6.0\DtxCs6.0.csproj", "{95DD85D2-E09C-4DF2-80CE-28B73C06392C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9FC3FE-83BE-4368-A984-2AEA6E6B69ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9FC3FE-83BE-4368-A984-2AEA6E6B69ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9FC3FE-83BE-4368-A984-2AEA6E6B69ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9FC3FE-83BE-4368-A984-2AEA6E6B69ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DD85D2-E09C-4DF2-80CE-28B73C06392C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DD85D2-E09C-4DF2-80CE-28B73C06392C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DD85D2-E09C-4DF2-80CE-28B73C06392C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DD85D2-E09C-4DF2-80CE-28B73C06392C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEBF0685-9454-4D5A-B0FA-EA9EAB6A0798}
+	EndGlobalSection
+EndGlobal

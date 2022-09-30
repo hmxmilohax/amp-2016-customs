@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>DtxCs6._0</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\DtxCS\Library\Builtins.cs" Link="Builtins.cs" />
+    <Compile Include="..\DtxCS\Library\CryptStream.cs" Link="CryptStream.cs" />
+    <Compile Include="..\DtxCS\Library\DataTypes\ArrayTypes.cs" Link="ArrayTypes.cs" />
+    <Compile Include="..\DtxCS\Library\DataTypes\AtomicTypes.cs" Link="AtomicTypes.cs" />
+    <Compile Include="..\DtxCS\Library\DataTypes\Directives.cs" Link="Directives.cs" />
+    <Compile Include="..\DtxCS\Library\DataTypes\Types.cs" Link="Types.cs" />
+    <Compile Include="..\DtxCS\Library\DTX.cs" Link="DTX.cs" />
+    <Compile Include="..\DtxCS\Library\StreamExtensions.cs" Link="StreamExtensions.cs" />
+  </ItemGroup>
+
+</Project>
