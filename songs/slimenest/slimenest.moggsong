@@ -1,0 +1,52 @@
+(mogg_path slimenest.mogg)
+(midi_path slimenest.mid)
+(song_info
+	(length 97:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (guitar (2 3) event:/SONG_BUS)
+      (bass (4 5) event:/SONG_BUS)
+      (synth (6 7) event:/SONG_BUS)
+      (synth2 (8 9) event:/SONG_BUS)
+      (synth3 (10 11) event:/SONG_BUS)
+      (freestyle (12 13) event:/FREESTYLE_FX_1)
+      (bg_click (14 15) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0))
+(vols (0.0  0.0    0.0  0.0    0.0  0.0    0.0  0.0    -1.5  -1.5    0.0  0.0    0.0  0.0    0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  522  650 1054)
+  (  560  778 1054)
+  (  612  878 1054)
+  (  691  938 1054)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 34 38 42)
+;; META DATA
+(title "Slime Nest")
+(artist "Houndwave")
+(artist_short "Houndwave")
+(desc "What has Maxwell gotten himself into?                                      Find out more in Goodboy Galaxy at goodboygalaxy.com")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 160)
+
+(preview_start_ms 7500)
+(preview_length_ms 12000)
