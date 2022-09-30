@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <title>Amplitude (2016) Custom Songs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" type="text/javascript"></script>
+    <style type="text/css">
+      body {
+        background-color: #eeeeee;
+        font-family:  sans-serif;
+        font-size: 14px;
+        padding: 1.5em;
+        margin: 0;
+      }
+      
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .title {
+        font-weight: bold;
+      }
+      
+      #wrapper {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 1024px;
+        margin: auto;
+      }
+
+      hr {
+        border: 0;
+        background-color: #999;
+        height: 1px;
+      }
+      
+      hr:last-child {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper"></div>
+    <script type="text/javascript">
+      $.get("info.json", function(json) {
+        var output = [];
+        
+        Object.keys(json).forEach(function(key){
+          json[key].ID = key;
+          json[key].DownloadURL = `${key}.zip`;
+          output.push(json[key]);
+        })
+        
+        output.sort((a, b) => (a.CleanTitle > b.CleanTitle) ? 1 : -1)
+        output.sort((a, b) => (a.CleanArtist > b.CleanArtist) ? 1 : -1)
+        
+        var $wrapper = $("#wrapper");
+        
+        output.forEach(function(song) {
+          $wrapper.append(
+            $("<div class=\"title\" />").append(
+              $("<a />")
+                .text(`${song.CleanArtist} - ${song.CleanTitle}`)
+                .attr("href", song.DownloadURL),
+              (song.DemoVideo ? 
+                [
+                  " - ",
+                  $("<a />")
+                    .text("Demo Video")
+                    .attr("href", song.DemoVideo)
+                    .attr("target", "_blank")
+                    .css("font-weight", "bold")
+                ]
+               : undefined
+              )
+            ),
+            $("<div />").append(
+              $("<strong />").text("ID: "),
+              song.ID
+            ),
+            $("<div />").append(
+              $("<strong />").text("BPM: "),
+              song.Bpm
+            ),
+            (song.Charter ? 
+              $("<div />").append(
+                $("<strong />").text("Charter: "),
+                song.Charter
+              )
+             : undefined
+            ),
+            $("<div />").text(song.CleanDescription),
+            $("<hr />")
+          )
+        });
+      });
+    </script>
+  </body>
+</html>
