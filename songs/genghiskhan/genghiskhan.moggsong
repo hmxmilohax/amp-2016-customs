@@ -1,0 +1,58 @@
+(mogg_path genghiskahn.mogg)
+(midi_path genghiskahn.mid)
+(song_info
+   (length 160:0:0)  ; SHOULD BE 4 LESS THAN ACTUAL
+   (countin 2)
+)
+
+(tracks
+   (
+      (drums1 (0 1) event:/SONG_BUS)
+      (drums2 (2 3) event:/SONG_BUS)
+      (synth1 (4 5) event:/SONG_BUS)
+	   (synth2 (6 7) event:/SONG_BUS)
+      (vox    (8 9) event:/SONG_BUS)
+      (bass   (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click (13) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;        1DMS1    2DMS2    3SYN     4VOX     5SYN2    6BASS   7FREE   8BG
+(pans (-1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0 -1.0 1.0   0.0    0.0))
+(vols ( 0.0 0.0  0.0 0.0  0.0 0.0  0.0 0.0  0.0 0.0  0.0 0.0   0.0    0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
+
+; Amplitude settings
+
+(arena_path ConstructoP2)
+(score_goal
+  (  336   466  1605)
+  (  479   717  1605)
+  (  897  1253  1605)
+  ( 1045  1547  1605)
+)
+
+(tunnel_scale .80)  ; fudge factor controlling speed of arena travel
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section
+(section_start_bars 25 65 115)
+
+;;
+;; META DATA
+;;
+(title "Genghis Khan" )
+(title_short "Genghis Khan" )
+(artist "Miike Snow")
+(artist_short "Miike Snow")
+(desc "I get a little bit Genghis Khan.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 188)
+
+(preview_start_ms 32872)
+(preview_length_ms 20425)
