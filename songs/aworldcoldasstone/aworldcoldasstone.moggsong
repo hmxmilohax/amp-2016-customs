@@ -53,8 +53,6 @@
 (desc "Remake by Carter")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 150)
-(charter "Carter")
-(demo_video "https://youtu.be/jRR930v1iTU")
 
 (preview_start_ms 102400)
 (preview_length_ms 30455)

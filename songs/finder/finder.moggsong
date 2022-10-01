@@ -54,8 +54,6 @@
 (desc "2021's \qPrototype\q EP by UZA takes influences from synthwave and 1970s funk to give you a unique blend of genres to satisfy your ears and warm up your fingers.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 105)
-(charter "Addymills")
-(demo_video "https://www.youtube.com/watch?v=uy86XeAOegc")
 
 (preview_start_ms 54857)
 (preview_length_ms 27428) 

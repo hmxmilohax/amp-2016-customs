@@ -53,8 +53,6 @@
 (desc "Something'g wrong...")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 160)
-(charter "Carter")
-(demo_video "https://www.youtube.com/watch?v=vGUy-mWTiM8")
 
 (preview_start_ms 0)
 (preview_length_ms 0)

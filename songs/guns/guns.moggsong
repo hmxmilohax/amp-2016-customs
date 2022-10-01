@@ -53,8 +53,6 @@
 (desc "Funker")
 (unlock_requirement "Are you using the right modulate?")
 (bpm 185)
-(charter "Carter")
-(demo_video "https://www.youtube.com/watch?v=RW7UmziXRfQ")
 
 (preview_start_ms 10378)
 (preview_length_ms 30000)
