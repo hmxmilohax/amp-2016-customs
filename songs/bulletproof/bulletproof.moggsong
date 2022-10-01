@@ -53,6 +53,8 @@
 (desc "THIS TIME BABY THIS TIME BABY THIS TIME BABY THIS TIME")
 (unlock_requirement "Are you using the right modulate?")
 (bpm 123)
+(charter "Carter")
+(demo_video "https://www.youtube.com/watch?v=odAOixZBCOg")
 
 (preview_start_ms 46829)
 (preview_length_ms 30000)

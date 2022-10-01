@@ -1,0 +1,48 @@
+(mogg_path beguiled.mogg)
+(midi_path beguiled.mid)
+(song_info
+	(length 87:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (synth (2 3) event:/SONG_BUS)
+      (bass (4 5) event:/SONG_BUS)
+      (drums2 (6 7) event:/SONG_BUS)
+      (guitar (8 9) event:/SONG_BUS)
+      (vox (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-7.5 -7.5   -6.0 -6.0   -5.0 -5.0   -7.5 -7.5   -8.0 -8.0   -5.0 -5.0     -4.0   -7.0 -7.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 23 47 72)
+;; META DATA
+(title "Beguiled")
+(artist "Splashdown")
+(artist_short "Splashdown")
+(desc "The Proto-Harmonix band. Members of Splashdown would form Freezepop and Anarchy Club past their split in 2000.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 95)
+(charter "Addymills")
+(demo_video "https://www.youtube.com/watch?v=qbn7eUI8dc8")
+
+(preview_start_ms 126315)
+(preview_length_ms 20211)

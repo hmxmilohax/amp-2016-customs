@@ -47,6 +47,8 @@
 (desc "RBN veteran, The Living Tombstone, shows us their songs have what it takes to play in Amplitude!")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 180)
+(charter "Addymills")
+(demo_video "https://www.youtube.com/watch?v=Lq9XvMVN42Q")
 
 (preview_start_ms 47166)
 (preview_length_ms 22167)
