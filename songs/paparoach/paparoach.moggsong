@@ -53,6 +53,7 @@
 (desc "Papa Roach makes it plain that no pigeonhole is big enough to contain them.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 173.001)
+(charter "Harmonix")
 
 (preview_start_ms 5549)
 (preview_length_ms 30455)

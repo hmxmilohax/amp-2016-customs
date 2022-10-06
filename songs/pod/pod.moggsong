@@ -53,6 +53,7 @@
 (desc "Electronica pioneers The Crystal Method bring new textures to this rock anthem in this remix.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 104)
+(charter "Harmonix")
 
 (preview_start_ms 138462)
 (preview_length_ms 34000)

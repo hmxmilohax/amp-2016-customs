@@ -53,6 +53,7 @@
 (desc "Komputer Kontroller unleashes his funky robot army to destroy the dance floors of the Earth!")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 150)
+(charter "Harmonix")
 
 (preview_start_ms 95200)
 (preview_length_ms 34455)

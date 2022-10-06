@@ -53,6 +53,7 @@
 (desc "Run-DMC team up with scratch artists The X-Ecutioners in this remix of the rap-rock song that started it all.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 98.3)
+(charter "Harmonix")
 
 (preview_start_ms 132000)
 (preview_length_ms 17455)

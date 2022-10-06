@@ -53,6 +53,7 @@
 (desc "Freezepop is here to tell you how much they love you with their new hit song, 'Super-SprØde.'")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 150)
+(charter "Harmonix")
 
 (preview_start_ms 102000)
 (preview_length_ms 17455)

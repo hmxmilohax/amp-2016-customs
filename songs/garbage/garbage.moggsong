@@ -53,6 +53,7 @@
 (desc "From their sonically charged debut Garbage demonstrates an unprecedented level of studio sophistication.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 116)
+(charter "Harmonix")
 
 (preview_start_ms 82464)
 (preview_length_ms 34000)

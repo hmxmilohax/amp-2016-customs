@@ -53,6 +53,7 @@
 (desc "David Bowie, as a musician, performer, and songwriter, defies all conventions.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 128)
+(charter "Harmonix")
 
 (preview_start_ms 168000)
 (preview_length_ms 34455)

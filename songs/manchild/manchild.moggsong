@@ -53,6 +53,7 @@
 (desc "Manchild's critically acclaimed debut album 'Untied States' is an exciting mixture of dance, rock, & hip-hop.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 135.001)
+(charter "Harmonix")
 
 (preview_start_ms 48582)
 (preview_length_ms 30455)

@@ -53,6 +53,7 @@
 (desc "His name was Logan. Possessing the grace of a duke and the bite of a cyberspace punk rocker.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 137)
+(charter "Harmonix")
 
 (preview_start_ms 16000)
 (preview_length_ms 34455)

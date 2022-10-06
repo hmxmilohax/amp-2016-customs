@@ -53,6 +53,7 @@
 (desc "Herbie Hancock is a major composer, an influential virtuoso pianist, and an inventor of classic R&B and hip-hop grooves.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 113)
+(charter "Harmonix")
 
 (preview_start_ms 29000)
 (preview_length_ms 17455)

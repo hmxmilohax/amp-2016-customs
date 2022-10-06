@@ -53,6 +53,7 @@
 (desc "Two FreQuency veterans, Symbion Project and Akrobatik, team up to bring the beats real raw in 'Out The Box'.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 132)
+(charter "Harmonix")
 
 (preview_start_ms 20909)
 (preview_length_ms 34455)

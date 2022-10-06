@@ -53,6 +53,7 @@
 (desc "Mekon's second album from 2000 paired Mekon with such favorites as Skooly D and Roxanne Shante.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 123)
+(charter "Harmonix")
 
 (preview_start_ms 191219)
 (preview_length_ms 23455)

@@ -53,6 +53,7 @@
 (desc "No one knows where he came from, and no one knows where he's going. Cosmonaut Zero is here to deny you glory.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 97)
+(charter "Harmonix")
 
 (preview_start_ms 197938)
 (preview_length_ms 30455)

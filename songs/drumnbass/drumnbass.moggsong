@@ -53,6 +53,7 @@
 (desc "Synthesized comes at you hard with mad patterns and catchy hooks, so pay attention.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 180.002)
+(charter "Harmonix")
 
 (preview_start_ms 69333)
 (preview_length_ms 30455)

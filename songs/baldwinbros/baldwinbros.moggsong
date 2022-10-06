@@ -53,6 +53,7 @@
 (desc "Their ultra-hip debut album, 'Cooking With Lasers', was one of 2002's underground favorites.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 105)
+(charter "Harmonix")
 
 (preview_start_ms 9143)
 (preview_length_ms 30455)

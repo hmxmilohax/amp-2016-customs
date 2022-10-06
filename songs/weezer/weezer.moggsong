@@ -53,6 +53,7 @@
 (desc "None of the members of Weezer are conventional rockers. They were kids that holed up in their garage.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 128)
+(charter "Harmonix")
 
 (preview_start_ms 23000)
 (preview_length_ms 17455)

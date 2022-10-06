@@ -53,6 +53,7 @@
 (desc "BT is best known for his epic trance albums 'IMA' and 'ESCM', and the wildly- diverse 'Movement In Still Life'.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 126)
+(charter "Harmonix")
 
 (preview_start_ms 32238)
 (preview_length_ms 30455)

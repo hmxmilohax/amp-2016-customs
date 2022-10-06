@@ -53,6 +53,7 @@
 (desc "'Follow Your Bliss' is the first full-length release for the Production Club.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 110)
+(charter "Harmonix")
 
 (preview_start_ms 126000)
 (preview_length_ms 17455)

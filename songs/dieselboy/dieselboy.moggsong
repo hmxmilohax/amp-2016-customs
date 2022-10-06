@@ -53,6 +53,7 @@
 (desc "Dieselboy and his production partner in crime Kaos funked up a heavy rolling monster in the form of 'Subculture'.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 174.001)
+(charter "Harmonix")
 
 (preview_start_ms 59310)
 (preview_length_ms 34455)

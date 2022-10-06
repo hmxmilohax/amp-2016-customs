@@ -53,6 +53,7 @@
 (desc "Quarashi mixes hard rhymes, hip-hop beats, and crunchy metal guitar licks to rip up shows from here to Reykjavik.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 98.001)
+(charter "Harmonix")
 
 (preview_start_ms 44081)
 (preview_length_ms 30455)

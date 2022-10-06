@@ -41,6 +41,8 @@
 (desc "The Proto-Harmonix band. Members of Splashdown would form Freezepop and Anarchy Club past their split in 2000.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 95)
+(charter "Addymills")
+(demo_video "https://www.youtube.com/watch?v=qbn7eUI8dc8")
 
 (preview_start_ms 126315)
 (preview_length_ms 20211)

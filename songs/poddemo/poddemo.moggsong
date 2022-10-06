@@ -55,6 +55,7 @@
 (desc "Featured on a special version of Amplitude showcases exlusive performances from members of P.O.D.")
 (unlock_requirement unlock_requirement_bonus)
 (bpm 101)
+(charter "Harmonix")
 
 (preview_start_ms 118812)
 (preview_length_ms 34238) 

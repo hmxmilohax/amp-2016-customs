@@ -53,6 +53,7 @@
 (desc "International superstar DJ HMX returns from Ibiza to join forces with up-and-coming club sensation Plural.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 128)
+(charter "Harmonix")
 
 (preview_start_ms 67000)
 (preview_length_ms 17455)
