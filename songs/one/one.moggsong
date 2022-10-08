@@ -1,0 +1,52 @@
+(mogg_path one.mogg)
+(midi_path one.mid)
+(song_info
+	(length 188:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (fx (4 5) event:/SONG_BUS)
+      (guitar (6 7) event:/SONG_BUS)
+      (guitar2 (8 9) event:/SONG_BUS)
+      (vox (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-4.0  -4.0    -7.0  -7.0    -6.0  -6.0    -6.0  -6.0    0.0  0.0    -1.0  -1.0    -5.0     0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1388 1728 2802)
+  ( 1490 2069 2802)
+  ( 1626 2334 2802)
+  ( 1837 2495 2802)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 2 3 4)
+;; META DATA
+(title "One")
+(artist "Metallica (Charter: Notagot)")
+(artist_short "Metallica (Charter: Notagot)")
+(desc "The GH3 monster comes to Amplitude. Make friends with your square button, you're gonna need it")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 111)
+
+(preview_start_ms 8100)
+(preview_length_ms 32900)

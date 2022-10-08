@@ -1,0 +1,52 @@
+(mogg_path onept.mogg)
+(midi_path onept.mid)
+(song_info
+	(length 78:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (fx (4 5) event:/SONG_BUS)
+      (guitar (6 7) event:/SONG_BUS)
+      (guitar2 (8 9) event:/SONG_BUS)
+      (vox (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-0.5  -0.5    -7.5  -7.5    -3.5  -3.5    -3.5  -3.5    0.0  0.0    -1.0  -1.0    0.0     0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  836 1040 1686)
+  (  897 1245 1686)
+  (  979 1405 1686)
+  ( 1106 1502 1686)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 2 3 4)
+;; META DATA
+(title "One (Post-Transition)")
+(artist "Metallica (Charter: Notagot)")
+(artist_short "Metallica (Charter: Notagot)")
+(desc "It would be cool if HMX actually added a practice mode to their rhythm game smh. Anyway, you're welcome. Enjoy!")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 111)
+
+(preview_start_ms 25405)
+(preview_length_ms 20000)

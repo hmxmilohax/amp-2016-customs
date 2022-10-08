@@ -1,0 +1,52 @@
+(mogg_path novacainerebel.mogg)
+(midi_path novacainerebel.mid)
+(song_info
+	(length 211:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (guitar (4 5) event:/SONG_BUS)
+      (fx (6 7) event:/SONG_BUS)
+      (vox (8 9) event:/SONG_BUS)
+      (vox2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (2.0  2.0    -9.0  -9.0    -7.0  -7.0    -7.0  -7.0    -6.0  -6.0    0.0  0.0    0.0     0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  983 1225 1985)
+  ( 1056 1466 1985)
+  ( 1152 1654 1985)
+  ( 1301 1768 1985)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 2 3 4)
+;; META DATA
+(title "Give Me Novacaine / She's A Rebel")
+(artist "Green Day (Charter: Notagot)")
+(artist_short "Green Day (Charter: Notagot)")
+(desc "Mixed into the story of American Idiot, Jesus of Suburbia experiences life-threatening depression and eventually meets the rebellious and admirable Whatsername.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 159)
+
+(preview_start_ms 69433)
+(preview_length_ms 14717)

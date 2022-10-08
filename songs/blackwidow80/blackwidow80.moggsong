@@ -1,0 +1,52 @@
+(mogg_path blackwidow80.mogg)
+(midi_path blackwidow80.mid)
+(song_info
+	(length 319:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (guitar (0 1) event:/SONG_BUS)
+      (guitar2 (2 3) event:/SONG_BUS)
+      (guitar3 (4 5) event:/SONG_BUS)
+      (guitar4 (6 7) event:/SONG_BUS)
+      (guitar5 (8 9) event:/SONG_BUS)
+      (guitar6 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (0.0  0.0    0.0  0.0    0.0  0.0    0.0  0.0    0.0  0.0    0.0  0.0    0.0     4.0  4.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 3774 4698 7616)
+  ( 4051 5623 7616)
+  ( 4421 6345 7616)
+  ( 4993 6783 7616)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 2 3 4)
+;; META DATA
+(title "Black Widow of La Porte (80%)")
+(artist "John 5 ft. Jim Root (Charter: Notagot)")
+(artist_short "John 5 ft. Jim Root (Charter: Notagot)")
+(desc "As brutal as 80% of Hell's Belle herself.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 144)
+
+(preview_start_ms 270000)
+(preview_length_ms 27000)
