@@ -1,0 +1,52 @@
+(mogg_path idiot.mogg)
+(midi_path idiot.mid)
+(song_info
+	(length 134:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (guitar (4 5) event:/SONG_BUS)
+      (fx (6 7) event:/SONG_BUS)
+      (vox (8 9) event:/SONG_BUS)
+      (vox2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (1.0  1.0    -6.0  -6.0    -4.5  -4.5    -4.5  -4.5    -3.0  -3.0    0.0  0.0    0.0     0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  556  692 1122)
+  (  597  829 1122)
+  (  652  935 1122)
+  (  736 1000 1122)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 2 3 4)
+;; META DATA
+(title "American Idiot")
+(artist "Green Day (Charter: Notagot)")
+(artist_short "Green Day (Charter: Notagot)")
+(desc "One nation controlled by the media")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 186)
+
+(preview_start_ms 36209)
+(preview_length_ms 25565)
