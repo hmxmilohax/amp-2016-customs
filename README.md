@@ -36,6 +36,22 @@ Splashdown - Beguiled
 
 UZA - Finder
 
+### Notagot -
+
+Against Me! - Delicate, Petite & Other Things Ill Never Be
+
+Green Day - Give Me Novacaine / Shes A Rebel
+
+Green Day - Boulevard of Broken Dreams
+
+Green Day - American Idiot
+
+John 5 ft. Jim Root - Black Widow of La Porte (+ 90%, 80%, 70% speeds)
+
+Metallica - One (full and post-transition)
+
+Orianthi - Suffocated
+
 ### DanTheMan827 -
 
 Houndwave - Slime Nest
