@@ -24,6 +24,8 @@ Slipknot - Wait and Bleed
 
 Miike Snow - Genghis Khan
 
+Bring Me the Horizon - Can You Feel My Heart
+
 ### Addymills -
 
 Grant Kirkhope - VS Mr. Patch
