@@ -56,6 +56,10 @@ Orianthi - Suffocated
 
 Houndwave - Slime Nest
 
+### VocalFan -
+
+Michael Jackson - Smooth Criminal
+
 ### Harmonix (ported by Carter) - 
 
 Amplitude (2003)

@@ -1,0 +1,56 @@
+(mogg_path SmoothCriminal.mogg)
+(midi_path SmoothCriminal.mid)
+(song_info
+	(length 120:0:0)
+	(countin 7)
+)
+
+(tracks
+   (
+      (vocals (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (drums (4 5) event:/SONG_BUS)
+      (guitar (6 7) event:/SONG_BUS)
+      (synth (8 9) event:/SONG_BUS)
+      (synth (10 11) event:/SONG_BUS)
+      (freestyle (12 13) event:/FREESTYLE_FX_1)
+      (bg_click (14 15) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0))
+(vols (8.0  8.0    8.0  8.0    8.0  8.0    8.0  8.0    8.0  8.0    8.0  8.0    -20.0  -20.0    0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  854 1063 1723)
+  (  916 1272 1723)
+  ( 1000 1435 1723)
+  ( 1129 1534 1723)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 23 53 83)
+;; META DATA
+(title "Smooth Criminal")
+(title_short "Smooth Criminal")
+(artist "Michael Jackson (VocalFan)")
+(artist_short "Michael Jackson (VocalFan)")
+(desc "A catchy classic about a girl named Annie being murdered by a Smooth Criminal.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 118.2)
+(charter "VocalFan")
+(demo_video "https://youtu.be/GDEc9N1G_y0")
+
+(preview_start_ms 130447)
+(preview_length_ms 24553)
+(arena World2)
