@@ -1,0 +1,60 @@
+(mogg_path xotourlif3.mogg)
+(midi_path xotourlif3.mid)
+(song_info
+   (length 112:0:0)  ; SHOULD BE 4 LESS THAN ACTUAL
+   (countin 8)
+)
+
+(tracks
+   (
+      (808s      (0 1) event:/SONG_BUS)
+      (drums     (2 3) event:/SONG_BUS)
+      (synth1    (4 5) event:/SONG_BUS)
+	   (synth2    (6 7) event:/SONG_BUS)
+      (vox       (8 9) event:/SONG_BUS)
+      (synth3    (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click  (13 14) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;       1808s        2DMS       3SYN      4SYN2      5VOX        6SYN3    7FREE    8BG
+(pans (-1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0    0.0  -1.0  1.0))
+(vols ( 0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0    0.0   0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
+
+; Amplitude settings
+
+(arena_path ConstructoP2)
+(score_goal
+  (  336   466  1605)
+  (  479   717  1605)
+  (  897  1253  1605)
+  ( 1045  1547  1605)
+)
+
+(tunnel_scale 0.8)  ; fudge factor controlling speed of arena travel
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section
+(section_start_bars 25 65 89)
+
+;;
+;; META DATA
+;;
+(title "XO Tour Lif3" )
+(title_short "XO Tour Lif3" )
+(artist "Lil Uzi Vert")
+(artist_short "Lil Uzi Vert")
+(desc "You're the worst, You're the worst")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 155)
+(charter "Carter")
+(demo_video "https://www.youtube.com/watch?v=qn0AbmZlPTI")
+
+(preview_start_ms 74322)
+(preview_length_ms 37161)
