@@ -26,6 +26,8 @@ Miike Snow - Genghis Khan
 
 Bring Me the Horizon - Can You Feel My Heart
 
+Lil Uzi Vert - XO Tour Lif3
+
 ### Addymills -
 
 Grant Kirkhope - VS Mr. Patch
