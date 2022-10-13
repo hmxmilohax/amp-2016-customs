@@ -42,11 +42,13 @@
 (section_start_bars 2 3 4)
 ;; META DATA
 (title "One")
-(artist "Metallica (Charter: Notagot)")
-(artist_short "Metallica (Charter: Notagot)")
+(artist "Metallica")
+(artist_short "Metallica")
 (desc "The GH3 monster comes to Amplitude. Make friends with your square button, you're gonna need it")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 111)
+(charter "Notagot")
+(demo_video "https://youtu.be/1j7ZwvOlHJs")
 
 (preview_start_ms 8100)
 (preview_length_ms 32900)
