@@ -42,11 +42,13 @@
 (section_start_bars 2 3 4)
 ;; META DATA
 (title "Delicate, Petite & Other Things I'll Never Be")
-(artist "Against Me! (Charter: Notagot)")
-(artist_short "Against Me! (Charter: Notagot)")
+(artist "Against Me!")
+(artist_short "Against Me!")
 (desc "Against Me!, fronted by Laura Jane Grace, gives a middle finger to the supposed necessity of 'passing' and instead encourages people to show the world how they see themselves.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 127)
+(charter "Notagot")
+(demo_video "https://youtu.be/vo06ZiRmjDo")
 
 (preview_start_ms 66000)
 (preview_length_ms 19000)
