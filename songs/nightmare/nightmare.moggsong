@@ -42,11 +42,13 @@
 (section_start_bars 2 3 4)
 ;; META DATA
 (title "Nightmare")
-(artist "Avenged Sevenfold (Charter: Notagot)")
-(artist_short "Avenged Sevenfold (Charter: Notagot)")
+(artist "Avenged Sevenfold")
+(artist_short "Avenged Sevenfold")
 (desc "IT'S YOUR [-redacted-] NIGHTMARE!!!!!")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 130)
+(charter "Notagot")
+(demo_video "https://www.youtube.com/watch?v=LRTB-LUt-w8")
 
 (preview_start_ms 108000)
 (preview_length_ms 26700)
