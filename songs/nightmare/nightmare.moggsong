@@ -1,0 +1,52 @@
+(mogg_path nightmare.mogg)
+(midi_path nightmare.mid)
+(song_info
+	(length 197:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (drums2 (4 5) event:/SONG_BUS)
+      (guitar (6 7) event:/SONG_BUS)
+      (fx (8 9) event:/SONG_BUS)
+      (vox (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-4.0  -4.0    -5.0  -5.0    0.0  0.0    -4.0  -4.0    -2.0  -2.0    -4.0  -4.0    0.0     0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1270 1581 2562)
+  ( 1363 1892 2562)
+  ( 1488 2135 2562)
+  ( 1680 2282 2562)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 2 3 4)
+;; META DATA
+(title "Nightmare")
+(artist "Avenged Sevenfold (Charter: Notagot)")
+(artist_short "Avenged Sevenfold (Charter: Notagot)")
+(desc "IT'S YOUR [-redacted-] NIGHTMARE!!!!!")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 130)
+
+(preview_start_ms 108000)
+(preview_length_ms 26700)

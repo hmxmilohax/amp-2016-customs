@@ -22,6 +22,8 @@ Kaskade x Inukshuk - A World Cold As Stone (AMP MIX)
 
 Slipknot - Wait and Bleed
 
+Slipknot - Wait and Bleed (Terry Date Mix)
+
 Miike Snow - Genghis Khan
 
 Bring Me the Horizon - Can You Feel My Heart
@@ -53,6 +55,8 @@ John 5 ft. Jim Root - Black Widow of La Porte (+ 90%, 80%, 70% speeds)
 Metallica - One (full and post-transition)
 
 Orianthi - Suffocated
+
+Avenged Sevenfold - Nightmare
 
 ### DanTheMan827 -
 
