@@ -42,11 +42,13 @@
 (section_start_bars 2 3 4)
 ;; META DATA
 (title "Give Me Novacaine / She's A Rebel")
-(artist "Green Day (Charter: Notagot)")
-(artist_short "Green Day (Charter: Notagot)")
+(artist "Green Day")
+(artist_short "Green Day")
 (desc "Mixed into the story of American Idiot, Jesus of Suburbia experiences life-threatening depression and eventually meets the rebellious and admirable Whatsername.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 159)
+(charter "Notagot")
+(demo_video "https://youtu.be/Ff1-YbgBnxs")
 
 (preview_start_ms 69433)
 (preview_length_ms 14717)
