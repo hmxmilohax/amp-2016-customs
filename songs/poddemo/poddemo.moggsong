@@ -56,6 +56,7 @@
 (unlock_requirement unlock_requirement_bonus)
 (bpm 101)
 (charter "Harmonix")
+(demo_video "https://youtu.be/QjfX12iN0Xo")
 
 (preview_start_ms 118812)
 (preview_length_ms 34238) 

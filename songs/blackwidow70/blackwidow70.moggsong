@@ -42,11 +42,13 @@
 (section_start_bars 2 3 4)
 ;; META DATA
 (title "Black Widow of La Porte (70%)")
-(artist "John 5 ft. Jim Root (Charter: Notagot)")
-(artist_short "John 5 ft. Jim Root (Charter: Notagot)")
+(artist "John 5 ft. Jim Root")
+(artist_short "John 5 ft. Jim Root")
 (desc "As brutal as 70% of Hell's Belle herself.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 126)
+(charter "Notagot")
+(demo_video "https://youtu.be/fYx_DsB3B5k")
 
 (preview_start_ms 308000)
 (preview_length_ms 31000)

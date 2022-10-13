@@ -42,11 +42,13 @@
 (section_start_bars 2 3 4)
 ;; META DATA
 (title "Suffocated")
-(artist "Orianthi (Charter: Notagot)")
-(artist_short "Orianthi (Charter: Notagot)")
+(artist "Orianthi")
+(artist_short "Orianthi")
 (desc "From her 2009 album 'Believe,' metal-guitarist Orianthi sings about anxiety, achieving the standards of others and the feeling of emptiness when those standards are met.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 150)
+(charter "Notagot")
+(demo_video "https://youtu.be/Adu3sxPmiRE")
 
 (preview_start_ms 43850)
 (preview_length_ms 29650)

@@ -42,11 +42,13 @@
 (section_start_bars 2 3 4)
 ;; META DATA
 (title "American Idiot")
-(artist "Green Day (Charter: Notagot)")
-(artist_short "Green Day (Charter: Notagot)")
+(artist "Green Day")
+(artist_short "Green Day")
 (desc "One nation controlled by the media")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 186)
+(charter "Notagot")
+(demo_video "https://youtu.be/MjMoEQ41cA4")
 
 (preview_start_ms 36209)
 (preview_length_ms 25565)

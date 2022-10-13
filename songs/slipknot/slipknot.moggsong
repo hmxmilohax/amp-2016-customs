@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 126)
 (charter "Harmonix")
+(demo_video "https://youtu.be/QdW01DvNpy0")
 
 (preview_start_ms 125714)
 (preview_length_ms 34455)

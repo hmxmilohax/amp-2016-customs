@@ -42,11 +42,13 @@
 (section_start_bars 2 3 4)
 ;; META DATA
 (title "Boulevard of Broken Dreams")
-(artist "Green Day (Charter: Notagot)")
-(artist_short "Green Day (Charter: Notagot)")
+(artist "Green Day")
+(artist_short "Green Day")
 (desc "And the award for most relatable song ever written goes to...")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 167)
+(charter "Notagot")
+(demo_video "https://youtu.be/HBgFUEq_Efg")
 
 (preview_start_ms 56766)
 (preview_length_ms 24072)
