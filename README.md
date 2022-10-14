@@ -68,6 +68,4 @@ Michael Jackson - Smooth Criminal
 
 ### Harmonix - 
 
-200bpmtest
-
 Amplitude (2003) (ported by Carter)
