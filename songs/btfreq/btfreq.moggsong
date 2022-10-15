@@ -1,0 +1,54 @@
+(mogg_path btfreq.mogg)
+(midi_path btfreq.mid)
+(song_info
+	(length 112:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums1    (0 1) event:/SONG_BUS)
+      (drums1    (2 3) event:/SONG_BUS)
+      (bass      (4 5) event:/SONG_BUS)
+	    (guitar1   (6 7) event:/SONG_BUS)
+      (guitar2   (8 9) event:/SONG_BUS)
+      (vox       (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click  (13 14) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;        1DMS1      2DMS1      3BASS      4GUI1      5GUI2       6VOX     7FREE     8BG
+(pans (-1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0    0.0   -1.0  1.0))
+(vols ( 0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0    0.0    0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 2183 2718 4405)
+  ( 2343 3253 4405)
+  ( 2557 3670 4405)
+  ( 2888 3924 4405)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 17 31 81)
+;; META DATA
+(title "Smartbomb")
+(title_short "Smartbomb")
+(artist "BT")
+(artist_short "BT")
+(desc "Artist, producer, composer, and remixer BT has been busy working on a follow-up to his album, 'Movement in Still Life,'")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 100)
+
+(preview_start_ms 67200)
+(preview_length_ms 38400)

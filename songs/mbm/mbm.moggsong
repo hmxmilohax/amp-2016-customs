@@ -1,0 +1,54 @@
+(mogg_path mbm.mogg)
+(midi_path mbm.mid)
+(song_info
+	(length 112:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums1    (0 1) event:/SONG_BUS)
+      (drums2    (2 3) event:/SONG_BUS)
+      (bass      (4 5) event:/SONG_BUS)
+	   (synth1    (6 7) event:/SONG_BUS)
+      (fx1       (8 9) event:/SONG_BUS)
+      (fx2       (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click  (13 14) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;        1DMS1      2DMS2      3BASS       4SYN       5FX1       6FX2     7FREE     8BG
+(pans (-1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0    0.0   -1.0  1.0))
+(vols ( 0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0    0.0    0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1354 1686 2732)
+  ( 1453 2017 2732)
+  ( 1586 2276 2732)
+  ( 1791 2433 2732)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 17 49 73)
+;; META DATA
+(title "Dynamite Fresh")
+(title_short "Dynamite Fresh")
+(artist "Meat Beat Manifesto")
+(artist_short "Meat Beat Manifesto")
+(desc "Meat Beat Manifesto is Jack Dangers - widely acknowledged for his sonic inventions in the realm of electronic music.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 134)
+
+(preview_start_ms 93134)
+(preview_length_ms 42985)

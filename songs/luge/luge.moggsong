@@ -1,0 +1,54 @@
+(mogg_path luge.mogg)
+(midi_path luge.mid)
+(song_info
+	(length 112:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (synth1    (0 1) event:/SONG_BUS)
+      (synth2    (2 3) event:/SONG_BUS)
+      (drums1    (4 5) event:/SONG_BUS)
+	   (bass      (6 7) event:/SONG_BUS)
+      (drums2    (8 9) event:/SONG_BUS)
+      (synth3    (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click  (13 14) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;        1SYN1      2SYN2      3DMS1      4BASS      5DMS2       6SYN3    7FREE     8BG
+(pans (-1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0    0.0   -1.0  1.0))
+(vols ( 0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0    0.0    0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 2031 2529 4099)
+  ( 2181 3027 4099)
+  ( 2380 3415 4099)
+  ( 2687 3651 4099)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 25 49 65)
+;; META DATA
+(title "Luge Crash")
+(title_short "Luge Crash")
+(artist "SurgeCore")
+(artist_short "SurgeCore")
+(desc "SurgeCore has emerged from the post-industrial German heartland with an assault of melodic electronica.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 120)
+
+(preview_start_ms 56000)
+(preview_length_ms 32000)

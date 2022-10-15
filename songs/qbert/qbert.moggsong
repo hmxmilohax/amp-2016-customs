@@ -1,0 +1,54 @@
+(mogg_path qbert.mogg)
+(midi_path qbert.mid)
+(song_info
+	(length 88:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums1    (0 1) event:/SONG_BUS)
+      (bass      (2 3) event:/SONG_BUS)
+      (drums1    (4 5) event:/SONG_BUS)
+	    (fx1       (6 7) event:/SONG_BUS)
+      (fx2       (8 9) event:/SONG_BUS)
+      (fx3       (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click  (13 14) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;        1DMS1      2BASS      3DMS2       4FX1       5FX2       6FX3     7FREE     8BG
+(pans (-1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0    0.0   -1.0  1.0))
+(vols ( 0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0    0.0    0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1673 2083 3377)
+  ( 1796 2493 3377)
+  ( 1960 2813 3377)
+  ( 2214 3008 3377)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 17 49 65)
+;; META DATA
+(title "Cosmic Assassins")
+(title_short "Cosmic Assassins")
+(artist "DJ QBert")
+(artist_short "DJ QBert")
+(desc "DJ QBert's film and skratch album "Wave Twisters" received international attention and praise.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 96)
+
+(preview_start_ms 90000)
+(preview_length_ms 40000)
