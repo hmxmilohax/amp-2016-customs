@@ -81,9 +81,9 @@ namespace song_packager.Extensions
             if (dict.ContainsKey("bpm"))
             {
 
-                if (int.TryParse(dict["bpm"], out int intVal))
+                if (decimal.TryParse(dict["bpm"], out decimal decVal))
                 {
-                    moggSong.Bpm = intVal;
+                    moggSong.Bpm = decVal;
                 }
             }
 

@@ -6,6 +6,9 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  
+env:
+  DOWNLOAD_BASE: "https://hmxmilohax.github.io/amp-2016-customs"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

@@ -4,6 +4,8 @@ Custom songs for use in Amplitude (2016) Referenced by [Amplitude Deluxe](https:
 
 Used with permission.
 
+An index of all the songs with individual download links can be found at [https://hmxmilohax.github.io/amp-2016-customs/](https://hmxmilohax.github.io/amp-2016-customs/).
+
 ## Credits
 
 ### Carter -

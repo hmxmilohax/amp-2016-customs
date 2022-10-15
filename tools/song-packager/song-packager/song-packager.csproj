@@ -9,7 +9,39 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DtxCs6.0\DtxCs6.0.csproj" />
+    <Compile Include="..\DtxCS\Library\Builtins.cs" Link="DtxCS\Builtins.cs" />
+    <Compile Include="..\DtxCS\Library\CryptStream.cs" Link="DtxCS\CryptStream.cs" />
+    <Compile Include="..\DtxCS\Library\DataTypes\ArrayTypes.cs" Link="DtxCS\ArrayTypes.cs" />
+    <Compile Include="..\DtxCS\Library\DataTypes\AtomicTypes.cs" Link="DtxCS\AtomicTypes.cs" />
+    <Compile Include="..\DtxCS\Library\DataTypes\Directives.cs" Link="DtxCS\Directives.cs" />
+    <Compile Include="..\DtxCS\Library\DataTypes\Types.cs" Link="DtxCS\Types.cs" />
+    <Compile Include="..\DtxCS\Library\DTX.cs" Link="DtxCS\DTX.cs" />
+    <Compile Include="..\DtxCS\Library\StreamExtensions.cs" Link="DtxCS\StreamExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DtxCS\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="AppResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="AppResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="template.html">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

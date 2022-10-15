@@ -2,7 +2,10 @@
   "profiles": {
     "song-packager": {
       "commandName": "Project",
-      "commandLineArgs": "\"C:\\Users\\daniel\\AppData\\Local\\Temp\\amp-2016-customs\\songs\" \"C:\\Users\\daniel\\AppData\\Local\\Temp\\amp-2016-customs\\output\""
+      "commandLineArgs": "\"C:\\Users\\daniel\\AppData\\Local\\Temp\\amp-2016-customs\\songs\" \"C:\\Users\\daniel\\AppData\\Local\\Temp\\amp-2016-customs\\output\"",
+      "environmentVariables": {
+        "DOWNLOAD_BASE": "https://hmxmilohax.github.io/amp-2016-customs"
+      }
     }
   }
 }

@@ -1,0 +1,115 @@
+﻿<html>
+    <head>
+        <title>Amplitude (2016) Custom Songs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" />
+        <link type="application/json" href="songs.json" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style type="text/css">
+            body {
+                background-color: #eeeeee;
+                font-family: sans-serif;
+                font-size: 14px;
+                padding: 1.5em;
+                margin: 0;
+            }
+
+            h3 {
+                margin-top: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: #0000FF;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .title {
+                font-weight: bold;
+            }
+
+            #wrapper {
+                background-color: #FFFFFF;
+                border-radius: 10px;
+                padding: 10px;
+                max-width: 1024px;
+                margin: auto;
+                border: 1px solid #999;
+                box-shadow: 1px 1px 11px -1px rgba(0,0,0,0.5);
+                -webkit-box-shadow: 1px 1px 11px -1px rgba(0,0,0,0.5);
+                -moz-box-shadow: 1px 1px 11px -1px rgba(0,0,0,0.5);
+            }
+
+            .song, .intro, .content {
+                margin: 1em 0;
+            }
+
+            .song, .intro {
+                border-bottom: 1px solid #999;
+            }
+
+            #wrapper > *:first-child {
+                margin-top: 0;
+            }
+
+            #wrapper > div:last-child {
+                border: 0;
+                margin-bottom: 0;
+            }
+
+            #wrapper > div:last-child p {
+                margin-bottom: 0;
+            }
+
+            #wrapper > div:last-child .content {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="intro">
+                <h3>Amplitude Custom Songs</h3>
+                <p>Below is a list of custom tracks for the 2016 release of Amplitude.  These are from the <a href="https://github.com/hmxmilohax/amp-2016-customs">hmxmilohax/amp-2016-customs</a> GitHub repository.</p>
+                <p>A json file of these songs can be found <a href="songs.json">here</a>.</p>
+            </div><!--#SongList#-->
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('.video').magnificPopup({
+                    type: 'iframe',
+                    iframe: {
+                        patterns: {
+                            youtube: {
+                                index: 'youtu.be',
+                                id: function (url) {
+                                    var m = url.match(/^.+youtu\.be\/([^/]+)?/);
+                                    if (m !== null) {
+                                        return m[1];
+                                    }
+                                    return null;
+                                },
+                                src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                            },
+                            streamable: {
+                                index: 'streamable.com',
+                                id: function (url) {
+                                    var m = url.match(/^.+streamable\.com\/([^/]+)?/);
+                                    if (m !== null) {
+                                        return m[1];
+                                    }
+                                    return null;
+                                },
+                                src: 'https://streamable.com/e/%id%?autoplay=1&loop=0&hd=1'
+                            }
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
