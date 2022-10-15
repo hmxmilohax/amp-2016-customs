@@ -49,6 +49,8 @@
 (desc "DJ QBert's film and skratch album "Wave Twisters" received international attention and praise.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 96)
+(charter "Harmonix")
+(demo_video "https://youtu.be/DCARQnjnZ2c")
 
 (preview_start_ms 90000)
 (preview_length_ms 40000)

@@ -49,6 +49,7 @@
 (desc "SurgeCore has emerged from the post-industrial German heartland with an assault of melodic electronica.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 120)
+(charter "Harmonix")
 
 (preview_start_ms 56000)
 (preview_length_ms 32000)

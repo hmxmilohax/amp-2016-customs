@@ -53,6 +53,8 @@
 (desc "Straight out of the Bronx comes Kareem Caines, proclaiming 'HipHop is my Life.'")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 92)
+(charter "Harmonix")
+(demo_video "https://youtu.be/Ndpt2OsSusE")
 
 (preview_start_ms 10434)
 (preview_length_ms 41739)

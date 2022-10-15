@@ -49,6 +49,8 @@
 (desc "Symbion Project hitz you one last time with an aggressive breakbeat masterpiece. This one is going to wear you down.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 155)
+(charter "Harmonix")
+(demo_video "https://youtu.be/GD7phfzMdAQ")
 
 (preview_start_ms 30967)
 (preview_length_ms 24774)

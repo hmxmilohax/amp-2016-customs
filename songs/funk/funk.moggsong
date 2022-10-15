@@ -49,6 +49,8 @@
 (desc "Funkstar De Luxe kicked in the doors all over the world.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 115)
+(charter "Harmonix")
+(demo_video "https://youtu.be/rtrTEZiDjYk")
 
 (preview_start_ms 50086)
 (preview_length_ms 33392)

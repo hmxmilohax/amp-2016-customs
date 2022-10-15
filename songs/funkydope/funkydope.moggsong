@@ -53,6 +53,8 @@
 (desc "The Symbion Project is the brainchild of electronic guru and international superstar DJ Kasson Crooker.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 140)
+(charter "Harmonix")
+(demo_video "https://youtu.be/3TZyBJWNDag")
 
 (preview_start_ms 46285)
 (preview_length_ms 25714)

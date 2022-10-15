@@ -49,6 +49,7 @@
 (desc "Roni Size is probably the most successful and innovative producer to have emerged from the UK drum'n'bass explosion.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 175)
+(charter "Harmonix")
 
 (preview_start_ms 83720)
 (preview_length_ms 33489)

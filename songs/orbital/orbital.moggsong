@@ -53,6 +53,8 @@
 (desc "Orbital have been responsible for some of the most beautiful machine-assisted music.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 130)
+(charter "Harmonix")
+(demo_video "https://youtu.be/_9WorLJBwJ0")
 
 (preview_start_ms 66461)
 (preview_length_ms 44308)

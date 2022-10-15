@@ -53,6 +53,7 @@
 (desc "The Crystal Method, are back with their new album, 'Tweekend.'")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 127)
+(charter "Harmonix")
 
 (preview_start_ms 44081)
 (preview_length_ms 30455)

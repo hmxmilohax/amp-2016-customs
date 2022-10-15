@@ -53,6 +53,8 @@
 (desc "Boston born and raised, MC & producer Akrobatik is best known for his underground classics.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 96)
+(charter "Harmonix")
+(demo_video "https://youtu.be/uahMXBVrq7k")
 
 (preview_start_ms 120000)
 (preview_length_ms 20000)

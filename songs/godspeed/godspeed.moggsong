@@ -53,6 +53,8 @@
 (desc "BT's Movement In Still Life is providing the first truly eclectic sound of the new millennium.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 139)
+(charter "Harmonix")
+(demo_video "https://youtu.be/49R1wHRfDDk")
 
 (preview_start_ms 103596)
 (preview_length_ms 27626)

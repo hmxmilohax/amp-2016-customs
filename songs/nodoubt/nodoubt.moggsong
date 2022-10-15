@@ -53,6 +53,8 @@
 (desc "Formed in Anaheim, California in 1987, No Doubt deliver a mix of rock, reggae, and new-wave musical styles.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 100)
+(charter "Harmonix")
+(demo_video "https://youtu.be/kZnfrvE6vC0")
 
 (preview_start_ms 124800)
 (preview_length_ms 47999)

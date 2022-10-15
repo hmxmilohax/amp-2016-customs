@@ -53,6 +53,8 @@
 (desc "Freezepop is a trio of fashionable gadabouts with a flair for synthpop songs about robots, and love, and loving robots.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 137)
+(charter "Harmonix")
+(demo_video "https://youtu.be/uTPL8mjdG_k")
 
 (preview_start_ms 147093)
 (preview_length_ms 28017)

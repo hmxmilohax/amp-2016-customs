@@ -49,6 +49,8 @@
 (desc "Artist, producer, composer, and remixer BT has been busy working on a follow-up to his album, 'Movement in Still Life,'")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 100)
+(charter "Harmonix")
+(demo_video "https://youtu.be/xpYvrCfhlvY")
 
 (preview_start_ms 67200)
 (preview_length_ms 38400)

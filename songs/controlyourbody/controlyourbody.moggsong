@@ -53,6 +53,7 @@
 (desc "You will not be able to resist his funky beats or thumping bass. You are now under kontrol!")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 144)
+(charter "Harmonix")
 
 (preview_start_ms 33333)
 (preview_length_ms 26666)

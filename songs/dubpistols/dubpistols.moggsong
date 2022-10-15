@@ -53,6 +53,8 @@
 (desc "'The Dub Pistols' Barry Ashworth is a fearless soldier working behind the frontlines of the UK's thriving dance music scene.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 125)
+(charter "Harmonix")
+(demo_video "https://youtu.be/9cNjBgvwROs")
 
 (preview_start_ms 122671)
 (preview_length_ms 30668)

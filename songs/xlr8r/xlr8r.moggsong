@@ -53,6 +53,8 @@
 (desc "Orbit's signature sound combines driving, dynamic bass and guitar lines with passionate vocal melodies.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 135)
+(charter "Harmonix")
+(demo_video "https://youtu.be/DrEkppekO2g")
 
 (preview_start_ms 92444)
 (preview_length_ms 28444)

@@ -49,6 +49,7 @@
 (desc "Meat Beat Manifesto is Jack Dangers - widely acknowledged for his sonic inventions in the realm of electronic music.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 134)
+(charter "Harmonix")
 
 (preview_start_ms 93134)
 (preview_length_ms 42985)

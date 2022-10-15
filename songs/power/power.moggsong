@@ -53,6 +53,8 @@
 (desc "They came from Boston, a raging crux of metallic funk juice and sonic mayhem hurtling through the atmosphere.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 156)
+(charter "Harmonix")
+(demo_video "https://youtu.be/NEHHogs6WaI")
 
 (preview_start_ms 43076)
 (preview_length_ms 24616)

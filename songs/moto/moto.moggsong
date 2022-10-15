@@ -49,6 +49,7 @@
 (desc "Old school computer game composer Tony Trippi crashes through your living room wall with his high-octane jam.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 135)
+(charter "Harmonix")
 
 (preview_start_ms 163555)
 (preview_length_ms 28444)

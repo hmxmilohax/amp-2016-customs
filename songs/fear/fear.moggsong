@@ -53,6 +53,8 @@
 (desc "Fear Factory have been together since 1990 and is constantly pushing the envelope of the heavy music genre.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 150)
+(charter "Harmonix")
+(demo_video "https://youtu.be/4Requje1BXA")
 
 (preview_start_ms 32003)
 (preview_length_ms 25597)

@@ -53,6 +53,8 @@
 (desc "The Lo Fidelity Allstars are five lovely lads from up north who produce quality dance music for indie kids and club heads alike.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 129)
+(charter "Harmonix")
+(demo_video "https://youtu.be/oQa59wpalNw")
 
 (preview_start_ms 141395)
 (preview_length_ms 29767)

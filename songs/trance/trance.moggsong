@@ -49,6 +49,7 @@
 (desc "Superstar DJ HMX returns from his world tour to deliver the smash hit 'Ibiza Dreamz.' Let the synth waves wash over you.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 144)
+(charter "Harmonix")
 
 (preview_start_ms 99999)
 (preview_length_ms 26667)

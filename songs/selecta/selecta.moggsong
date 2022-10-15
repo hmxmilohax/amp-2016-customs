@@ -53,6 +53,8 @@
 (desc "Ethan E Eves has been producing energetic electronic music since 1996 in various groups around the United States.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 180)
+(charter "Harmonix")
+(demo_video "https://youtu.be/hwonY9e9v4I")
 
 (preview_start_ms 37333)
 (preview_length_ms 21333)

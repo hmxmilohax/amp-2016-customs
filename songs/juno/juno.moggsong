@@ -49,6 +49,7 @@
 (desc "Juno Reactor are constantly challenging the concept of what an electronic-based band should be and sound like.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 143)
+(charter "Harmonix")
 
 (preview_start_ms 100699)
 (preview_length_ms 40279)

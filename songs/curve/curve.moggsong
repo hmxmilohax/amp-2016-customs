@@ -49,6 +49,8 @@
 (desc "Curve set the stage in the 90's for female fronted electronic rock and continue to rock hard to this day mixing heavy beats with sultry vocals.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 150)
+(charter "Harmonix")
+(demo_video "https://youtu.be/Kw43fpOsc3o")
 
 (preview_start_ms 44800)
 (preview_length_ms 25596)

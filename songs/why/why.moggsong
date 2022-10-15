@@ -53,6 +53,7 @@
 (desc "Reeload`s hybrid of U.K garage with U.S R`n`B vocals was produced by Tim O`Riordan and William Borez.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 138)
+(charter "Harmonix")
 
 (preview_start_ms 96690)
 (preview_length_ms 31079)

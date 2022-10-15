@@ -53,6 +53,8 @@
 (desc "Paul Oakenfold is the world's number one DJ. No one else can claim such a seismic role.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 135)
+(charter "Harmonix")
+(demo_video "https://youtu.be/ekNjEqel2Kk")
 
 (preview_start_ms 35555)
 (preview_length_ms 28444)

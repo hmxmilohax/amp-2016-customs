@@ -49,6 +49,8 @@
 (desc "Hip-hop pioneers Mike G & Afrika have always pushed the boundaries of hip-hop.")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 172)
+(charter "Harmonix")
+(demo_video "https://youtu.be/I67Mry7kjLE")
 
 (preview_start_ms 83720)
 (preview_length_ms 33489)
