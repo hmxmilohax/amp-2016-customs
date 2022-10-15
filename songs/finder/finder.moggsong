@@ -55,7 +55,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 105)
 (charter "Addymills")
-(demo_video "https://www.youtube.com/watch?v=uy86XeAOegc")
+(demo_video "https://youtu.be/uy86XeAOegc")
 
 (preview_start_ms 54857)
 (preview_length_ms 27428) 

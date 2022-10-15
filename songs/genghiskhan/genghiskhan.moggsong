@@ -54,7 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 188)
 (charter "Carter")
-(demo_video "https://www.youtube.com/watch?v=mnlDGHwOfAU")
+(demo_video "https://youtu.be/mnlDGHwOfAU")
 
 (preview_start_ms 32872)
 (preview_length_ms 20425)

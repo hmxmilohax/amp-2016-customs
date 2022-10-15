@@ -48,7 +48,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 130)
 (charter "Notagot")
-(demo_video "https://www.youtube.com/watch?v=LRTB-LUt-w8")
+(demo_video "https://youtu.be/LRTB-LUt-w8")
 
 (preview_start_ms 108000)
 (preview_length_ms 26700)
