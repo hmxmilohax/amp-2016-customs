@@ -69,3 +69,5 @@ Michael Jackson - Smooth Criminal
 ### Harmonix - 
 
 Amplitude (2003) (ported by Carter)
+
+Frequency (2001) (ported by Carter)
