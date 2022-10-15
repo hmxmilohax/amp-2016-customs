@@ -49,7 +49,7 @@ namespace song_packager
 
                 using var zipFile = File.Create(Path.Combine(outputPath, $"{name}.zip"));
                 Console.WriteLine($"Archiving: {name}.zip");
-                //ArchiveSong(info.FullName, name, zipFile).Wait();
+                ArchiveSong(info.FullName, name, zipFile).Wait();
             }
 
             string json = JsonSerializer.Serialize(songs.OrderBy(song => song.Name).OrderBy(song => song.Artist), new JsonSerializerOptions() { WriteIndented = true });
