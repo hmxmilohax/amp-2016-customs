@@ -8,7 +8,7 @@
 (tracks
    (
       (bass (0 1) event:/SONG_BUS)
-      ( (2 3) event:/SONG_BUS)
+      (drums (2 3) event:/SONG_BUS)
       (guitar (4 5) event:/SONG_BUS)
       (vox (6 7) event:/SONG_BUS)
       (fx (8 9) event:/SONG_BUS)
