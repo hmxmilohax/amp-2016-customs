@@ -1,0 +1,55 @@
+(mogg_path rememberthename.mogg)
+(midi_path rememberthename.mid)
+(song_info
+	(length 76:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (guitar (4 5) event:/SONG_BUS)
+      (vox (6 7) event:/SONG_BUS)
+      (synth (8 9) event:/SONG_BUS)
+      (fx (10 11) event:/SONG_BUS)
+      (freestyle (12 13) event:/FREESTYLE_FX_1)
+      (bg_click (14 15) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0))
+(vols (-0.3  -0.3    -1.2  -1.2    -5.0  -5.0    -0.7  -0.7    -7.8  -7.8    -8.0  -8.0    0.0  0.0    0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  693  863 1398)
+  (  744 1032 1398)
+  (  812 1165 1398)
+  (  917 1245 1398)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 17 33 53)
+;; META DATA
+(title "Remember The Name")
+(title_short "Remember The Name")
+(artist "Fort Minor")
+(artist_short "Fort Minor")
+(desc "10% luck, 20% skill, 15% concentrated power of will, 5% pleasure, 50% pain, and 100% reason to remember the name")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 85)
+(charter "DanTheMan827")
+(demo_video "https://youtu.be/Zgq736KyUbw")
+
+(preview_start_ms 191467)
+(preview_length_ms 13578)
