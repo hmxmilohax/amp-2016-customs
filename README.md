@@ -60,6 +60,14 @@ Orianthi - Suffocated
 
 Avenged Sevenfold - Nightmare
 
+Avenged Sevenfold - Beast and the Harlot
+
+Avenged Sevenfold - Bat Country
+
+Paramore - Ignorance
+
+Paramore - Misery Business
+
 ### DanTheMan827 -
 
 Fort Minor - Remember The Name

@@ -1,0 +1,54 @@
+(mogg_path bat.mogg)
+(midi_path bat.mid)
+(song_info
+	(length 159:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (guitar (4 5) event:/SONG_BUS)
+      (guitar2 (6 7) event:/SONG_BUS)
+      (vox (8 9) event:/SONG_BUS)
+      (vox2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (1.0  1.0    -5.0  -5.0    -3.0  -3.0    -3.0  -3.0    -2.0  -2.0    2.0  2.0    0.0     -2.0  -2.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1137 1416 2295)
+  ( 1221 1694 2295)
+  ( 1332 1912 2295)
+  ( 1504 2044 2295)
+)
+
+(tunnel_scale 0.7)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 2 3 4)
+;; META DATA
+(title "Bat Country")
+(artist "Avenged Sevenfold")
+(artist_short "Avenged Sevenfold")
+(desc "We can't stop here...")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 125)
+(charter "Notagot")
+(demo_video "https://youtu.be/mnBHufGhxqA")
+
+(preview_start_ms 45600)
+(preview_length_ms 15840)
