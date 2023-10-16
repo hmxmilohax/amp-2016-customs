@@ -48,6 +48,9 @@ jobs:
     - name: Pack Output
       run: dotnet tools/song-packager/song-packager/bin/Debug/net6.0/song-packager.dll ./songs ./output
 
+    - name: Delete Unpacked Songs
+      run: rm -rf ./songs
+
     - name: Setup Pages
       uses: actions/configure-pages@v2
 
