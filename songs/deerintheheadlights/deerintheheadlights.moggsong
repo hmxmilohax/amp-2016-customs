@@ -1,0 +1,54 @@
+(mogg_path deerintheheadlights.mogg)
+(midi_path deerintheheadlights.mid)
+(song_info
+	(length 101:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      ( drums (0 1) event:/SONG_BUS)
+      ( drums (2 3) event:/SONG_BUS)
+      ( bass (4 5) event:/SONG_BUS)
+      ( synth (6 7) event:/SONG_BUS)
+      ( guitar (8 9) event:/SONG_BUS)
+      ( vocals (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-1.8  -1.8    6.7  6.7    0.0  0.0    0.0  0.0    0.0  0.0    5.9  5.9    0.0     -44.8  -44.8))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  830 1034 1676)
+  (  892 1238 1676)
+  (  973 1396 1676)
+  ( 1099 1493 1676)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 34 74 82)
+;; META DATA
+(title "Deer in the Headlights")
+(title_short "Deer in the Headlights")
+(artist "Adam Young")
+(artist_short "Adam Young")
+(desc "tell me again was it love at first sight?")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 140)
+(charter "DeMOniK274")
+
+(preview_start_ms 10000)
+(preview_length_ms 15000)

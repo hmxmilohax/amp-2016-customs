@@ -1,0 +1,54 @@
+(mogg_path tonight.mogg)
+(midi_path tonight.mid)
+(song_info
+	(length 78:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      ( vocals (0 1) event:/SONG_BUS)
+      ( synth (2 3) event:/SONG_BUS)
+      ( guitar (4 5) event:/SONG_BUS)
+      ( bass (6 7) event:/SONG_BUS)
+      ( drums (8 9) event:/SONG_BUS)
+      ( drums (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (1.2  1.2    2.4  2.4    0.0  0.0    -0.5  -0.5    0.4  0.4    3.5  3.5    0.0     -63.3  -63.3))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  814 1013 1643)
+  (  874 1213 1643)
+  (  954 1369 1643)
+  ( 1077 1463 1643)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 36 62 77)
+;; META DATA
+(title "Tonight")
+(title_short "Tonight")
+(artist "Hot Chelle Rae")
+(artist_short "Hot Chelle Rae")
+(desc "laaa la la")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 100)
+(charter "DeMOniK274")
+
+(preview_start_ms 10000)
+(preview_length_ms 15000)
