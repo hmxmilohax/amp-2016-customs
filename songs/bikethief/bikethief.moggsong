@@ -1,0 +1,54 @@
+(mogg_path bikethief.mogg)
+(midi_path bikethief.mid)
+(song_info
+	(length 150:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      ( drums (0 1) event:/SONG_BUS)
+      ( bass (2 3) event:/SONG_BUS)
+      ( drums (4 5) event:/SONG_BUS)
+      ( vocals (6 7) event:/SONG_BUS)
+      ( vocals (8 9) event:/SONG_BUS)
+      ( synth (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (0.0  0.0    0.0  0.0    0.0  0.0    0.0  0.0    0.0  0.0    3.2  3.2    0.0     -20.8  -20.8))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1064 1324 2147)
+  ( 1142 1585 2147)
+  ( 1246 1788 2147)
+  ( 1407 1912 2147)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 36 84 134)
+;; META DATA
+(title "Bike Thief")
+(title_short "Bike Thief")
+(artist "Freeepop")
+(artist_short "Freezepop")
+(desc "I am a bike thief..")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 166)
+(charter "DeMOniK274")
+
+(preview_start_ms 10000)
+(preview_length_ms 15000)

@@ -1,0 +1,54 @@
+(mogg_path sandstorm.mogg)
+(midi_path sandstorm.mid)
+(song_info
+	(length 122:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      ( drums (0 1) event:/SONG_BUS)
+      ( synth (2 3) event:/SONG_BUS)
+      ( synth (4 5) event:/SONG_BUS)
+      ( drums (6 7) event:/SONG_BUS)
+      ( bass (8 9) event:/SONG_BUS)
+      ( guitar (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (0.0  0.0    0.0  0.0    -2.2  -2.2    0.0  0.0    0.0  0.0    0.0  0.0    0.0     -17.5  -17.5))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1529 1903 3085)
+  ( 1641 2278 3085)
+  ( 1791 2570 3085)
+  ( 2023 2748 3085)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 41 72 89)
+;; META DATA
+(title "Sandstorm")
+(title_short "Sandstorm")
+(artist "Darude")
+(artist_short "Darude")
+(desc "dekekekede. (charted by DeMOniK274)")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 136)
+(charter "DeMOniK274")
+
+(preview_start_ms 10000)
+(preview_length_ms 15000)

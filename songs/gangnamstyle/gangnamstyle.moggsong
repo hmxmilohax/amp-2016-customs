@@ -1,0 +1,54 @@
+(mogg_path gangnamstyle.mogg)
+(midi_path gangnamstyle.mid)
+(song_info
+	(length 111:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      ( synth (0 1) event:/SONG_BUS)
+      ( synth (2 3) event:/SONG_BUS)
+      ( vocals (4 5) event:/SONG_BUS)
+      ( bass (6 7) event:/SONG_BUS)
+      ( drums (8 9) event:/SONG_BUS)
+      ( drums (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (3.0  3.0    5.0  5.0    3.0  3.0    6.0  6.0    6.0  6.0    7.0  7.0    0.0     -33.0  -33.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1022 1272 2062)
+  ( 1097 1522 2062)
+  ( 1197 1718 2062)
+  ( 1352 1836 2062)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 56 90 109)
+;; META DATA
+(title "Gangnam Style")
+(title_short "Gangnam Style")
+(artist "PSY")
+(artist_short "PSY")
+(desc "whooop whooop.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 130)
+(charter "DeMOniK274")
+
+(preview_start_ms 10000)
+(preview_length_ms 15000)

@@ -1,0 +1,54 @@
+(mogg_path godzilla.mogg)
+(midi_path godzilla.mid)
+(song_info
+	(length 155:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      ( vocals (0 1) event:/SONG_BUS)
+      ( bass (2 3) event:/SONG_BUS)
+      ( vocals (4 5) event:/SONG_BUS)
+      ( vocals (6 7) event:/SONG_BUS)
+      ( drums (8 9) event:/SONG_BUS)
+      ( drums (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (0.0  0.0    6.0  6.0    2.4  2.4    0.0  0.0    6.0  6.0    4.2  4.2    0.0     -3.6  -3.6))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1223 1523 2468)
+  ( 1313 1822 2468)
+  ( 1433 2056 2468)
+  ( 1618 2198 2468)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 46 93 130)
+;; META DATA
+(title "Godzilla")
+(title_short "Godzilla")
+(artist "Eminem")
+(artist_short "Eminem")
+(desc "Ima feed you to the monster. (Charted By DeMOniK274)")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 166)
+(charter "DeMOniK274")
+
+(preview_start_ms 10000)
+(preview_length_ms 15000)

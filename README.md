@@ -8,6 +8,16 @@ An index of all the songs with individual download links can be found at [https:
 
 ## Credits
 
+### Addymills -
+
+Grant Kirkhope - VS Mr. Patch
+
+The Living Tombstone - Long Time Friends
+
+Splashdown - Beguiled
+
+UZA - Finder
+
 ### Carter -
 
 Toby Fox - Megalovania
@@ -32,15 +42,37 @@ Bring Me the Horizon - Can You Feel My Heart
 
 Lil Uzi Vert - XO Tour Lif3
 
-### Addymills -
+### DanTheMan827 -
 
-Grant Kirkhope - VS Mr. Patch
+Fort Minor - Remember The Name
 
-The Living Tombstone - Long Time Friends
+Houndwave - Slime Nest
 
-Splashdown - Beguiled
+### DeMOniK274 -
 
-UZA - Finder
+Freeepop - Bike Thief
+
+Adam Young - Deer in the Headlights
+
+Fall Out Boy - Dance, Dance
+
+Usher - DJ Got Us Fallin' In Love
+
+Owl City - Fireflies
+
+PSY - Gangnam Style
+
+Eminem - Godzilla
+
+Benjamin Wallfisch - Mortal Kombat
+
+Darude - Sandstorm
+
+Justin Bieber and The Kid LOROI - Stay
+
+Katy Perry - This Is How We Do
+
+Hot Chelle Rae - Tonight
 
 ### Notagot -
 
@@ -67,12 +99,6 @@ Avenged Sevenfold - Bat Country
 Paramore - Ignorance
 
 Paramore - Misery Business
-
-### DanTheMan827 -
-
-Fort Minor - Remember The Name
-
-Houndwave - Slime Nest
 
 ### VocalFan -
 

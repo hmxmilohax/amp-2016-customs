@@ -1,0 +1,54 @@
+(mogg_path fireflies.mogg)
+(midi_path fireflies.mid)
+(song_info
+	(length 110:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      ( synth (0 1) event:/SONG_BUS)
+      ( vocals (2 3) event:/SONG_BUS)
+      ( bass (4 5) event:/SONG_BUS)
+      ( drums (6 7) event:/SONG_BUS)
+      ( synth (8 9) event:/SONG_BUS)
+      ( synth (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-4.9  -4.9    -0.7  -0.7    -6.0  -6.0    -5.0  -5.0    -4.0  -4.0    -5.0  -5.0    0.0     -8.0  -8.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  904 1125 1824)
+  (  970 1347 1824)
+  ( 1059 1519 1824)
+  ( 1196 1624 1824)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 36 76 106)
+;; META DATA
+(title "Fireflies")
+(title_short "Fireflies")
+(artist "Adam Young")
+(artist_short "Owl City")
+(desc "I like to make myself believe!!! ")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 120)
+(charter "DeMOniK274")
+
+(preview_start_ms 10000)
+(preview_length_ms 15000)

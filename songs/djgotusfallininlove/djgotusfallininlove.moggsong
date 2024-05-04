@@ -1,0 +1,54 @@
+(mogg_path djgotusfallininlove.mogg)
+(midi_path djgotusfallininlove.mid)
+(song_info
+	(length 105:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      ( synth (0 1) event:/SONG_BUS)
+      ( vocals (2 3) event:/SONG_BUS)
+      ( synth (4 5) event:/SONG_BUS)
+      ( bass (6 7) event:/SONG_BUS)
+      ( drums (8 9) event:/SONG_BUS)
+      ( drums (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (0.0  0.0    2.4  2.4    0.0  0.0    6.0  6.0    0.0  0.0    0.0  0.0    0.0     -13.1  -13.1))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  878 1093 1772)
+  (  942 1308 1772)
+  ( 1028 1476 1772)
+  ( 1161 1578 1772)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 16 36 56)
+;; META DATA
+(title "DJ Got Us Fallin' In Love")
+(title_short "DJ Got Us Fallin' In Love")
+(artist "Usher")
+(artist_short "Usher")
+(desc "(Charted By DeMOniK274)")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 120)
+(charter "DeMOniK274")
+
+(preview_start_ms 10000)
+(preview_length_ms 15000)
