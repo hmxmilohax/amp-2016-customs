@@ -74,6 +74,12 @@ Katy Perry - This Is How We Do
 
 Hot Chelle Rae - Tonight
 
+### Mizzy -
+
+Backburner - Heatwave
+
+Major Lazer & DJ Snake - Lean On (feat. MØ)
+
 ### Notagot -
 
 Against Me! - Delicate, Petite & Other Things Ill Never Be

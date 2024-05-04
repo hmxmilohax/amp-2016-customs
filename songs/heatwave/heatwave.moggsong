@@ -1,0 +1,55 @@
+(mogg_path heatwave.mogg)
+(midi_path heatwave.mid)
+(song_info
+	(length 116:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (vox (2 3) event:/SONG_BUS)
+      (synth (4 5) event:/SONG_BUS)
+      (fx (6 7) event:/SONG_BUS)
+      (bass (8 9) event:/SONG_BUS)
+      (drums2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-7.0  -7.0    -5.0  -5.0    -7.0  -7.0    -6.0  -6.0    -4.0  -4.0    -4.0  -4.0    0.0     -7.0  -7.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  678  844 1360)
+  (  728 1010 1670)
+  (  794 1140 1968)
+  (  999 2000 2500)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 33 57 93)
+;; META DATA
+(title "Heatwave")
+(title_short "Heatwave")
+(artist "Backburner")
+(artist_short "Backburner")
+(desc "The Canadian hip-hop collective Backburner brings the heat and spits fire on this hot summer jam")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 130)
+(charter "Mizzy")
+(demo_video "https://youtu.be/7IRZakVtxvw")
+
+(preview_start_ms 14769)
+(preview_length_ms 22154)
