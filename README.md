@@ -82,6 +82,8 @@ Backburner - Heatwave
 
 Major Lazer & DJ Snake - Lean On (feat. MØ)
 
+Lizi Kay - This Electric Night
+
 ### Notagot -
 
 Against Me! - Delicate, Petite & Other Things Ill Never Be

@@ -1,0 +1,55 @@
+(mogg_path electricnight.mogg)
+(midi_path electricnight.mid)
+(song_info
+	(length 118:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (vox (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (drums (4 5) event:/SONG_BUS)
+      (synth (6 7) event:/SONG_BUS)
+      (synth2 (8 9) event:/SONG_BUS)
+      (synth3 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-5.0  -5.0    -5.0  -5.0    -4.0  -4.0    -5.0  -5.0    -5.0  -5.0    -5.0  -5.0    2.0     -5.0  -5.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  821 1022 1656)
+  (  881 1223 1656)
+  (  961 1380 1856)
+  ( 1086 1475 2000)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 25 63 99)
+;; META DATA
+(title "This Electric Night")
+(title_short "This Electric Night")
+(artist "Lizi Kay")
+(artist_short "Lizi Kay")
+(desc "An electrifying mix by Minneapolis-based artist Lizi Kay")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 130)
+(charter "Mizzy")
+(demo_video "https://youtu.be/5RyxZZ_gLOg")
+
+(preview_start_ms 92307)
+(preview_length_ms 14884)
