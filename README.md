@@ -74,6 +74,10 @@ Katy Perry - This Is How We Do
 
 Hot Chelle Rae - Tonight
 
+Papa Roach - Last Resort
+
+Smash Mouth - All Star
+
 ### Mizzy -
 
 Antigen5 - Emergency
