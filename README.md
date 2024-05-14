@@ -76,9 +76,13 @@ Hot Chelle Rae - Tonight
 
 ### Mizzy -
 
+Antigen5 - Emergency
+
 Backburner - Heatwave
 
 Major Lazer & DJ Snake - Lean On (feat. MØ)
+
+Lizi Kay - This Electric Night
 
 ### Notagot -
 

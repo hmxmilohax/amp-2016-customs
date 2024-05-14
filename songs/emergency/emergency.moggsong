@@ -1,0 +1,55 @@
+(mogg_path emergency.mogg)
+(midi_path emergency.mid)
+(song_info
+	(length 108:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (bass (0 1) event:/SONG_BUS)
+      (drums (2 3) event:/SONG_BUS)
+      (guitar (4 5) event:/SONG_BUS)
+      (drums2 (6 7) event:/SONG_BUS)
+      (vox (8 9) event:/SONG_BUS)
+      (synth (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-5.0  -5.0    -4.0  -4.0    -5.0  -5.0    -5.0  -5.0    -5.0  -5.0    -6.0  -6.0    1.0     -5.0  -5.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  800  996 1615)
+  (  859 1193 1615)
+  (  938 1346 1615)
+  ( 1059 1439 1615)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 21 65 85)
+;; META DATA
+(title "Emergency")
+(title_short "Emergency")
+(artist "Antigen5")
+(artist_short "Antigen5")
+(desc "A track composed by Antigen5 specifically for Amplitude!")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 180)
+(charter "Mizzy")
+(demo_video "https://youtu.be/Nb1veCuiQ0M")
+
+(preview_start_ms 96000)
+(preview_length_ms 21333)
