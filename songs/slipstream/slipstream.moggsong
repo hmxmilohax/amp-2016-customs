@@ -1,0 +1,55 @@
+(mogg_path slipstream.mogg)
+(midi_path slipstream.mid)
+(song_info
+	(length 145:0:0)
+	(countin 8)
+)
+
+(tracks
+   (
+      (synth (0 1) event:/SONG_BUS)
+      (drums (2 3) event:/SONG_BUS)
+      (synth2 (4 5) event:/SONG_BUS)
+      (synth3 (6 7) event:/SONG_BUS)
+      (bass (8 9) event:/SONG_BUS)
+      (synth4 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-6.0  -6.0    -4.0  -4.0    -6.0  -6.0    -3.0  -3.0    -6.0  -6.0    -6.0  -6.0    6.0     -6.0  -6.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  927 1154 1870)
+  (  995 1381 1870)
+  ( 1086 1558 1870)
+  ( 1226 1666 1870)
+)
+
+(tunnel_scale 1.1)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 42 66 90)
+;; META DATA
+(title "Slipstream")
+(title_short "Slipstream")
+(artist "Mike Oldfield")
+(artist_short "Mike Oldfield")
+(desc "A track the legendary musician behind Tubular Bells did in collaboration with FL Studio's Fruityloops")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 124)
+(charter "Mizzy")
+(demo_video "https://youtu.be/xY9kvCDi5Qo")
+
+(preview_start_ms 110322)
+(preview_length_ms 15484)
