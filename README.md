@@ -30,6 +30,8 @@ Kawai Sprite - Guns
 
 La Roux - Bulletproof
 
+Ne-Yo - Closer
+
 Kaskade x Inukshuk - A World Cold As Stone (AMP MIX)
 
 Slipknot - Wait and Bleed

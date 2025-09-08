@@ -1,0 +1,62 @@
+(mogg_path closer.mogg)
+(midi_path closer.mid)
+(song_info
+   (length 116:0:0)  ; SHOULD BE 4 LESS THAN ACTUAL
+   (countin 4)
+)
+
+(tracks
+   (
+      (drums      (0 1) event:/SONG_BUS)
+      (guitar     (2 3) event:/SONG_BUS)
+      (vox        (4 5) event:/SONG_BUS)
+	   (bass       (6) event:/SONG_BUS)
+      (guitar     (7 8) event:/SONG_BUS)
+      (synth      (9 10) event:/SONG_BUS)
+      (freestyle  (11) event:/FREESTYLE_FX_1) 
+      (bg_click   (12 13) event:/SONG_BUS)
+   )
+)
+
+;-------------------  MIXER --------------------
+
+;        1DMS        2GUI       3VOX     4BAS        5GUI       6SYN     7FREE     8BG
+(pans (-1.0  1.0  -1.0  1.0  -1.0   1.0   0.0     -1.0  1.0  -1.0  1.0    0.0  -1.0  1.0))
+(vols ( 0.0  0.0   0.0  0.0   0.0   0.0   0.0      0.0  0.0   0.0  0.0    0.0   0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
+
+; Amplitude settings
+
+(arena_path ConstructoP2)
+(score_goal
+  (  336   466  1605)
+  (  479   717  1605)
+  (  897  1253  1605)
+  ( 1045  1547  1605)
+)
+
+(tunnel_scale 0.8)  ; fudge factor controlling speed of arena travel
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section
+(section_start_bars 29 53 77)
+
+;;
+;; META DATA
+;;
+(title "Closer" )
+(title_short "Closer" )
+(artist "Ne-Yo")
+(artist_short "Ne-Yo")
+(desc "I JUST CAN'T STOP")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 126)
+(charter "Carter")
+(donor_song "phantoms")
+(arena World3)
+(demo_video "https://youtu.be/5huiKRgQ1jc")
+
+(preview_start_ms 59987)
+(preview_length_ms 15239)
