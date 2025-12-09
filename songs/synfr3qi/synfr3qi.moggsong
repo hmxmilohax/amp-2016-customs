@@ -1,0 +1,55 @@
+(mogg_path synfr3qi.mogg)
+(midi_path synfr3qi.mid)
+(song_info
+	(length 152:0:0)
+	(countin 8)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (drums2 (2 3) event:/SONG_BUS)
+      (bass (4 5) event:/SONG_BUS)
+      (synth (6 7) event:/SONG_BUS)
+      (synth2 (8 9) event:/SONG_BUS)
+      (vox (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (freestyle (13) event:/FREESTYLE_FX_1)
+      (freestyle (14) event:/FREESTYLE_FX_1)
+      (bg_click (15 16) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1    7FREE2    7FREE3      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0      0.0      0.0    -1.0 1.0))
+(vols (0.0  0.0    0.0 0.0    0.0 0.0    0.0 0.0    0.0 0.0    0.0 0.0      0.0      0.0      0.0     0.0 0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1003 1249 2025)
+  ( 1077 1495 2025)
+  ( 1176 1687 2025)
+  ( 1328 1804 2025)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 33 65 97)
+;; META DATA
+(title "Synthesized (Fr3Qi Remix)" )
+(title_short "Synthesized (Fr3Qi Remix)" )
+(artist "Symbion Project, Remix by Fr3Qi")
+(artist_short "Symbion Project, Remix by Fr3Qi")
+(desc "A freaky new take on an old classic")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 180)
+
+(preview_start_ms 48000)
+(preview_length_ms 15000)

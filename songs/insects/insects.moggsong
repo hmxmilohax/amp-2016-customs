@@ -1,0 +1,53 @@
+(mogg_path insects.mogg)
+(midi_path insects.mid)
+(song_info
+	(length 130:0:0)
+	(countin 6)
+)
+
+(tracks
+   (
+      (synth (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (drums (4 5) event:/SONG_BUS)
+      (vox (6 7) event:/SONG_BUS)
+      (synth2 (8 9) event:/SONG_BUS)
+      (synth3 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-4.0 -4.0   -2.0 -2.0   -2.0 -2.0   -4.0 -4.0   -5.0 -5.0   -3.0 -5.0     2.5   -0.0 -0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  881 1097 1777)
+  (  945 1312 1777)
+  ( 1032 1481 1777)
+  ( 1165 1583 1777)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 51 83 99)
+;; META DATA
+(title "Insects")
+(title_short "Insects")
+(artist "Mr.Kitty")
+(artist_short "Mr.Kitty")
+(desc "From Mr.Kitty's 2013 album, Life.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 150)
+
+(preview_start_ms 114800)
+(preview_length_ms 38800)

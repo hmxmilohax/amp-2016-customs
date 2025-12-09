@@ -80,6 +80,10 @@ Papa Roach - Last Resort
 
 Smash Mouth - All Star
 
+### Fr3Qi -
+
+Symbion Project, Fr3Qi - Synthesized (Fr3Qi Remix)
+
 ### Mizzy -
 
 Antigen5 - Emergency
@@ -91,6 +95,26 @@ Major Lazer & DJ Snake - Lean On (feat. MØ)
 Mike Oldfield - Slipstream
 
 Lizi Kay - This Electric Night
+
+O-Zone - Dragostea Din Tei
+
+The Faint - The Geeks Were Right
+
+Scandroid - Awakening With You
+
+Celldweller - Switchback
+
+Mr.Kitty - Years
+
+Mr.Kitty - Insects
+
+Paula Abdul - Straight Up
+
+We Are Magonia - Synthwave Is Dead (Amp Remix)
+
+Little Boots - Satellite (Amplitude Remix)
+
+Elliphant - MINIMAL
 
 ### Notagot -
 
