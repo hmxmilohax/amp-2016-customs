@@ -1,0 +1,53 @@
+(mogg_path dragosteadintei.mogg)
+(midi_path dragosteadintei.mid)
+(song_info
+	(length 113:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (vox (0 1) event:/SONG_BUS)
+      (drums (2 3) event:/SONG_BUS)
+      (synth (4 5) event:/SONG_BUS)
+      (synth2 (6 7) event:/SONG_BUS)
+      (bass (8 9) event:/SONG_BUS)
+      (drums2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-2.0  -2.0    -5.0  -5.0    -7.0  -7.0    -9.0  -9.0    -7.0  -7.0    -4.0  -4.0    5.0     0.0  0.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  786  979 1587)
+  (  844 1172 1587)
+  (  921 1322 1587)
+  ( 1040 1413 1587)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 18 50 82)
+;; META DATA
+(title "Dragostea Din Tei")
+(title_short "Dragostea Din Tei")
+(artist "O-Zone")
+(artist_short "O-Zone")
+(desc "A Moldovan pop song made even more popular by Gary Brolsma's 'Numa Numa' viral video.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 130)
+
+(preview_start_ms 22615)
+(preview_length_ms 16154)

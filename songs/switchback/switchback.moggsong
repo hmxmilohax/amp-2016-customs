@@ -1,0 +1,53 @@
+(mogg_path switchback.mogg)
+(midi_path switchback.mid)
+(song_info
+	(length 141:0:0)
+	(countin 4)
+)
+
+(tracks
+   (
+      (synth (0 1) event:/SONG_BUS)
+      (drums (2 3) event:/SONG_BUS)
+      (bass (4 5) event:/SONG_BUS)
+      (vox (6 7) event:/SONG_BUS)
+      (guitar (8 9) event:/SONG_BUS)
+      (drums2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-6.5  -6.5    -4.5  -4.5    -5.5  -5.5    -6.0  -6.0    -6.5  -6.5    -6.5  -6.5    3.0     -6.5  -6.5))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1089 1356 2198)
+  ( 1169 1623 2198)
+  ( 1276 1831 2198)
+  ( 1441 1958 2198)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 43 71 89)
+;; META DATA
+(title "Switchback")
+(title_short "Switchback")
+(artist "Celldweller")
+(artist_short "Celldweller")
+(desc "Released back in 2003 on Celldweller's self-titled debut album. Is it too late to switch back?")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 112)
+
+(preview_start_ms 08571)
+(preview_length_ms 25714)

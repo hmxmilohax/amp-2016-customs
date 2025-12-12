@@ -1,0 +1,53 @@
+(mogg_path satellite.mogg)
+(midi_path satellite.mid)
+(song_info
+	(length 156:0:0)
+	(countin 8)
+)
+
+(tracks
+   (
+      (vox (0 1) event:/SONG_BUS)
+      (drums (2 3) event:/SONG_BUS)
+      (synth (4 5) event:/SONG_BUS)
+      (synth2 (6 7) event:/SONG_BUS)
+      (drums2 (8 9) event:/SONG_BUS)
+      (bass (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-5.0  -5.0    -5.0  -5.0    -5.0  -5.0    -9.0  -9.0    -6.0  -6.0    -4.0  -4.0    0.0     -8.0  -8.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  ( 1272 1584 2567)
+  ( 1366 1896 2567)
+  ( 1490 2139 2567)
+  ( 1683 2287 2567)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 39 73 91)
+;; META DATA
+(title "Satellite (Amplitude Remix)")
+(title_short "Satellite")
+(artist "Little Boots")
+(artist_short "Little Boots")
+(desc "From the British singer/songwriter/DJ's 2013 album, Nocturnes")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 130)
+
+(preview_start_ms 57230)
+(preview_length_ms 31385)

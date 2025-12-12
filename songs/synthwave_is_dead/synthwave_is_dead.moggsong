@@ -1,0 +1,53 @@
+(mogg_path synthwave_is_dead.mogg)
+(midi_path synthwave_is_dead.mid)
+(song_info
+	(length 101:0:0)
+	(countin 8)
+)
+
+(tracks
+   (
+      (synth (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (vox (4 5) event:/SONG_BUS)
+      (synth2 (6 7) event:/SONG_BUS)
+      (drums (8 9) event:/SONG_BUS)
+      (drums2 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-5.0  -5.0    -5.0  -5.0    -8.0  -8.0    -5.0  -5.0    -2.0  -2.0    -5.0  -5.0    0.0     -5.0  -5.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  886 1103 1788)
+  (  951 1320 1788)
+  ( 1038 1490 1788)
+  ( 1172 1593 1788)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 29 45 60)
+;; META DATA
+(title "Synthwave Is Dead (Amp Remix)")
+(title_short "Synthwave Is Dead")
+(artist "We Are Magonia")
+(artist_short "We Are Magonia")
+(desc "A dark declaration from this electronic music act from Lyon, France")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 103)
+
+(preview_start_ms 198058)
+(preview_length_ms 18641)
