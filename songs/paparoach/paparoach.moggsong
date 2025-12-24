@@ -7,22 +7,22 @@
 
 (tracks
    (
-      (drums1 (0 1) event:/SONG_BUS)
-      (bass (2 3) event:/SONG_BUS)
-      (guitar (4 5) event:/SONG_BUS)
-	  (vox (6 7) event:/SONG_BUS)
+      (drums1  (0 1) event:/SONG_BUS)
+      (bass    (2 3) event:/SONG_BUS)
+      (guitar  (4 5) event:/SONG_BUS)
+	  (vox     (6 7) event:/SONG_BUS)
       (guitar2 (8 9) event:/SONG_BUS)
-      (drums2 (10 11) event:/SONG_BUS)
-      (freestyle (12 13) event:/FREESTYLE_FX_1) 
-      (bg_click (14 15) event:/SONG_BUS)
+      (drums2  (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click (13 14) event:/SONG_BUS)
    )
 )
 
 ;-------------------  MIXER --------------------
 
-;       1DMS1      2DMS2     3BASS     4SYN1     5VOX      6SYN2     7FREE      8BG
-(pans ( 0.0  0.0  0.0  0.0   0.0  0.0   0.0  0.0  0.0  0.0  0.0  0.0 0.0 0.0  0.0  0.0))
-(vols ( 4.0  4.0  0.0  0.0   0.0  0.0   0.0  0.0  0.0  0.0  0.0  0.0 0.0 0.0 -2.0 -2.0))
+;        1DMS1      2BASS     3GUI1     4VOX      5GUI2     6DMS2   7FREE    8BG
+(pans (-1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0   0.0  -1.0  1.0))
+(vols ( 1.0  1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0   0.0   0.0  0.0))
 
 ;-------------------- ATTENUATION --------------
 (active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 173.001)
 (charter "Harmonix")
+(donor_song "assault_on")
 (demo_video "https://youtu.be/tY73bXb-nE0")
 
 (preview_start_ms 5549)
