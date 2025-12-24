@@ -8,21 +8,21 @@
 (tracks
    (
       (drums1 (0 1) event:/SONG_BUS)
-      (bass (2 3) event:/SONG_BUS)
+      (bass   (2 3) event:/SONG_BUS)
       (guitar (4 5) event:/SONG_BUS)
-	  (vox (6 7) event:/SONG_BUS)
+	  (vox    (6 7) event:/SONG_BUS)
       (guitar (8 9) event:/SONG_BUS)
       (drums2 (10 11) event:/SONG_BUS)
-      (freestyle (12 13) event:/FREESTYLE_FX_1) 
-      (bg_click (14 15) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click (13 14) event:/SONG_BUS)
    )
 )
 
 ;-------------------  MIXER --------------------
 
-;       1DMS1      2bass     3guitar     4Vox     5guitar2   6Drums2     7FREE      8BG
-(pans ( 0.0  0.0  0.0  0.0   0.0  0.0   0.0  0.0  0.0  0.0  0.0  0.0 	0.0 0.0  0.0  0.0))
-(vols ( 5.0  5.0  0.0  0.0   0.0  0.0   4.0  4.0  2.0  2.0  5.0  5.0 	0.0 0.0  0.0  0.0))
+;        1DMS       2BASS     3GUI1     4VOX     5GUI2     6DMS2    7FREE     8BG
+(pans (-1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0   0.0  -1.0  1.0))
+(vols ( 0.0  0.0  0.0  0.0 -1.0 -1.0  0.0  0.0  0.0  0.0  0.0  0.0   0.0   0.0  0.0))
 
 ;-------------------- ATTENUATION --------------
 (active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 128)
 (charter "Harmonix")
+(donor_song "perfectbrain")
 (demo_video "https://youtu.be/z8F_ECiIEhA")
 
 (preview_start_ms 23000)

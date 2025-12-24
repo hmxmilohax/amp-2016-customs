@@ -8,21 +8,21 @@
 (tracks
    (
       (drums1 (0 1) event:/SONG_BUS)
-      (bass (2 3) event:/SONG_BUS)
-      (vox (4 5) event:/SONG_BUS)
+      (bass   (2 3) event:/SONG_BUS)
+      (vox    (4 5) event:/SONG_BUS)
 	  (synth1 (6 7) event:/SONG_BUS)
       (drums2 (8 9) event:/SONG_BUS)
       (synth2 (10 11) event:/SONG_BUS)
-      (freestyle (12 13) event:/FREESTYLE_FX_1) 
-      (bg_click (14 15) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click (13 14) event:/SONG_BUS)
    )
 )
 
 ;-------------------  MIXER --------------------
 
 ;        1DMS1      2BASS      3VOX      4SYN1    5DMS2    6SYN2    7FREE     8BG
-(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0  -1.0 1.0 -1.0 1.0 -1.0 1.0  0.0 0.0 -1.0 1.0))
-(vols ( 0.0 0.0    0.0 0.0    0.0 0.0   0.0 0.0  0.0 0.0  0.0 0.0  0.0 0.0  0.0 0.0))
+(pans (-1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0   0.0  -1.0  1.0))
+(vols ( 0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0   0.0   0.0  0.0))
 
 ;-------------------- ATTENUATION --------------
 (active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 150)
 (charter "Harmonix")
+(donor_song "phantoms")
 (demo_video "https://youtu.be/sJYkWS2Cv3M")
 
 (preview_start_ms 102000)

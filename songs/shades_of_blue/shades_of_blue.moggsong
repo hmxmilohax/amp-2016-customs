@@ -13,16 +13,16 @@
 	  (synth1 (6 7) event:/SONG_BUS)
       (vox (8 9) event:/SONG_BUS)
       (synth2 (10 11) event:/SONG_BUS)
-      (freestyle (12 13) event:/FREESTYLE_FX_1) 
-      (bg_click (14 15) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1) 
+      (bg_click (13 14) event:/SONG_BUS)
    )
 )
 
 ;-------------------  MIXER --------------------
 
-;        1DMS1      2DMS2      3BASS      4SYN1     5VOX      6SYN2     7FREE      8BG
-(pans ( 0.0  0.0  0.0  0.0   0.0  0.0   0.0  0.0  0.0  0.0  0.0  0.0   0.0 0.0  0.0  0.0))
-(vols (-4.0 -4.0  0.0  0.0   0.0  0.0  -2.0 -2.0 -1.0 -1.0 -2.0 -2.0   0.0 0.0  0.0  0.0))
+;        1DMS1      2DMS2     3BASS     4SYN1     5VOX      6SYN2   7FREE     8BG
+(pans (-1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0 -1.0  1.0   0.0  -1.0  1.0))
+(vols ( 0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0   0.0   0.0  0.0))
 
 ;-------------------- ATTENUATION --------------
 (active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 136)
 (charter "Harmonix")
+(donor_song "synthesized2014")
 (demo_video "https://youtu.be/LWgfJN9mK-g")
 
 (preview_start_ms 201176)
