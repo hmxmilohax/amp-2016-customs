@@ -46,6 +46,8 @@
 (artist_short "SEGA (Sonic 3)")
 (desc "Replaced by MJ's team in the release, this song features tunes way too jammy for a menu, but it was used for that anyway.")
 (unlock_requirement unlock_requirement_playcount)
+(charter "LysiX")
+(demo_video "https://youtu.be/zlPi3OukBLc")
 (bpm 128.34)
 
 (preview_start_ms 23400)
