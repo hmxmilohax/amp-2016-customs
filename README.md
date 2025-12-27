@@ -84,6 +84,10 @@ Smash Mouth - All Star
 
 Symbion Project, Fr3Qi - Synthesized (Fr3Qi Remix)
 
+### LysiX -
+
+SEGA (Sonic 3) - Competition Menu (Prototype)
+
 ### Mizzy -
 
 Antigen5 - Emergency

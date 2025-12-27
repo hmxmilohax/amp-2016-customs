@@ -1,0 +1,52 @@
+(mogg_path s3protocompmenu.mogg)
+(midi_path s3protocompmenu.mid)
+(song_info
+	(length 72:1:00)
+	(countin 4)
+)
+
+(tracks
+   (
+      (drums (0 1) event:/SONG_BUS)
+      (bass (2 3) event:/SONG_BUS)
+      (synth (4 5) event:/SONG_BUS)
+      (synth2 (6 7) event:/SONG_BUS)
+      (synth3 (8 9) event:/SONG_BUS)
+      (synth4 (10 11) event:/SONG_BUS)
+      (freestyle (12 13) event:/FREESTYLE_FX_1)
+      (bg_click (14 15) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1    7FREE2    7FREE3      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0))
+(vols (7.0  7.0    3.0 3.0   1.0  1.0    3.0  3.0    3.0  3.0    1.0  1.0    1.0  1.0    1.0  1.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  674  840 1361)
+  (  724 1005 1361)
+  (  790 1134 1361)
+  (  892 1212 1361)
+)
+
+(tunnel_scale 0.85)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 25 41 53)
+;; META DATA
+(title "Competition Menu (Proto)")
+(artist "SEGA (Sonic 3)")
+(artist_short "SEGA (Sonic 3)")
+(desc "Replaced by MJ's team in the release, this song features tunes way too jammy for a menu, but it was used for that anyway.")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 128.34)
+
+(preview_start_ms 23400)
+(preview_length_ms 23300)
