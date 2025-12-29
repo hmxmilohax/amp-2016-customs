@@ -1,0 +1,55 @@
+(mogg_path lastchristmasremix.mogg)
+(midi_path lastchristmasremix.mid)
+(song_info
+	(length 144:0:0)
+	(countin 8)
+)
+
+(tracks
+   (
+      (synth (0 1) event:/SONG_BUS)
+      (drums (2 3) event:/SONG_BUS)
+      (drums2 (4 5) event:/SONG_BUS)
+      (bass (6 7) event:/SONG_BUS)
+      (vox (8 9) event:/SONG_BUS)
+      (drums3 (10 11) event:/SONG_BUS)
+      (freestyle (12) event:/FREESTYLE_FX_1)
+      (bg_click (13 14) event:/SONG_BUS)
+	)
+)
+
+;-------------------  MIXER --------------------
+;        1TRK1      2TRK2      3TRK3     4TRK4      5TRK5      6TRK6      7FREE1      8BG
+(pans (-1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0   -1.0 1.0      0.0   -1.0 1.0))
+(vols (-3.0  -3.0    -2.0  -2.0    -2.0  -2.0    -3.0  -3.0    0.0  0.0    0.0  0.0    0.0     -8.0  -8.0))
+
+;-------------------- ATTENUATION --------------
+(active_track_db 0.0  0.0  0.0  0.0  0.0  0.0  0.0)
+
+; Amplitude settings
+(arena_path ConstructoP2)
+(score_goal
+  (  688  857 1389)
+  (  739 1025 1389)
+  (  806 1157 1389)
+  (  910 1237 1389)
+)
+
+(tunnel_scale 1.0)  ; fudge factor controlling speed of arena travel 
+(enable_order (1 2 3 4 5 6)) ; 1-based
+
+; first bar of each section 
+(section_start_bars 41 61 93)
+;; META DATA
+(title "Last Christmas (Whamageddon Resistor ReMix)")
+(title_short "Last Christmas (Remix)")
+(artist "Antigen5")
+(artist_short "Antigen5")
+(desc "A dark and dancy remix of Last Christmas by Wham! that Antigen5 created for a cybergoth Christmas party")
+(unlock_requirement unlock_requirement_playcount)
+(bpm 140)
+(charter "Mizzy")
+(demo_video "https://youtu.be/m8S21O1W5VY")
+
+(preview_start_ms 88714)
+(preview_length_ms 41571)
