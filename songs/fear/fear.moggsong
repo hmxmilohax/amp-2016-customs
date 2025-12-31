@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 150)
 (charter "Harmonix")
+(donor_song "assault_on")
 (demo_video "https://youtu.be/4Requje1BXA")
 
 (preview_start_ms 32003)

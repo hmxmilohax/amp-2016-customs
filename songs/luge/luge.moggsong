@@ -50,6 +50,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 120)
 (charter "Harmonix")
+(donor_song "wayfarer")
 
 (preview_start_ms 56000)
 (preview_length_ms 32000)

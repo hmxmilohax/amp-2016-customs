@@ -50,10 +50,11 @@
 (title_short "End of Your World" )
 (artist "Robotkid vs Inter:sekt")
 (artist_short "Robotkid vs Inter:sekt")
-(desc "Robotkid and Inter:sekt duke it out on the dancefloor. Put on your stompin' boots and get on down. emixed by Symbion Project.")
+(desc "Robotkid and Inter:sekt duke it out on the dancefloor. Put on your stompin' boots and get on down. Remixed by Symbion Project.")
 (unlock_requirement unlock_requirement_world2)
 (bpm 160)
 (charter "Harmonix")
+(donor_song "digitalparalysis")
 (demo_video "https://youtu.be/OxKjadtd_4Q")
 
 (preview_start_ms 54000)

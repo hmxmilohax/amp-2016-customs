@@ -10,7 +10,7 @@
       (drums1    (0 1) event:/SONG_BUS)
       (drums2    (2 3) event:/SONG_BUS)
       (bass      (4 5) event:/SONG_BUS)
-	    (vox       (6 7) event:/SONG_BUS)
+      (vox       (6 7) event:/SONG_BUS)
       (guitar    (8 9) event:/SONG_BUS)
       (synth1    (10 11) event:/SONG_BUS)
       (freestyle (12) event:/FREESTYLE_FX_1) 
@@ -50,6 +50,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 115)
 (charter "Harmonix")
+(donor_song "unfinished")
 (demo_video "https://youtu.be/rtrTEZiDjYk")
 
 (preview_start_ms 50086)

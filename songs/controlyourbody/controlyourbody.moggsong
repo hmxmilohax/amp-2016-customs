@@ -53,6 +53,7 @@
 (desc "You will not be able to resist his funky beats or thumping bass. You are now under kontrol!")
 (unlock_requirement unlock_requirement_playcount)
 (bpm 144)
+(donor_song "donot")
 (charter "Harmonix")
 
 (preview_start_ms 33333)
