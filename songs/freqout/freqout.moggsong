@@ -50,6 +50,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 155)
 (charter "Harmonix")
+(donor_song "forcequit")
 (demo_video "https://youtu.be/GD7phfzMdAQ")
 
 (preview_start_ms 30967)

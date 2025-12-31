@@ -22,7 +22,7 @@
 
 ;        1DMS1      2DMS2       3BASS      4SYN1     5VOX        6FX      7FREE     8BG
 (pans (-1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0    0.0   -1.0  1.0))
-(vols ( 0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0    0.0    0.0  0.0))
+(vols ( 0.0  0.0   0.0  0.0   0.0  0.0  -1.0 -1.0   0.0  0.0  -1.0 -1.0    0.0    0.0  0.0))
 
 ;-------------------- ATTENUATION --------------
 (active_track_db  0.0   0.0   0.0   0.0   0.0   0.0  0.0 )
@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 140)
 (charter "Harmonix")
+(donor_song "concept")
 (demo_video "https://youtu.be/3TZyBJWNDag")
 
 (preview_start_ms 46285)

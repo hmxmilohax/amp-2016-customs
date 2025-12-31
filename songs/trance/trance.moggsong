@@ -50,6 +50,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 144)
 (charter "Harmonix")
+(donor_song "digitalparalysis")
 
 (preview_start_ms 99999)
 (preview_length_ms 26667)

@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 180)
 (charter "Harmonix")
+(donor_song "wayfarer")
 (demo_video "https://youtu.be/hwonY9e9v4I")
 
 (preview_start_ms 37333)

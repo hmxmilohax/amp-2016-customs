@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 135)
 (charter "Harmonix")
+(donor_song "impossible")
 (demo_video "https://youtu.be/DrEkppekO2g")
 
 (preview_start_ms 92444)

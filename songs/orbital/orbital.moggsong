@@ -20,7 +20,7 @@
 
 ;-------------------  MIXER --------------------
 
-;        1DMS1      2BASS      3SYN1      4VOX        5SYN2     6DMS2      7FREE     8BG
+;        1DMS1      2BASS      3SYN1      4VOX        5SYN2     6DMS2     7FREE      8BG
 (pans (-1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0    0.0   -1.0  1.0))
 (vols ( 0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0    0.0    0.0  0.0))
 
@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 130)
 (charter "Harmonix")
+(donor_song "decode_me")
 (demo_video "https://youtu.be/_9WorLJBwJ0")
 
 (preview_start_ms 66461)

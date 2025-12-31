@@ -54,6 +54,7 @@
 (unlock_requirement unlock_requirement_playcount)
 (bpm 139)
 (charter "Harmonix")
+(donor_song "phantoms")
 (demo_video "https://youtu.be/49R1wHRfDDk")
 
 (preview_start_ms 103596)
